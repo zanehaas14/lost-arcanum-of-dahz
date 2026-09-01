@@ -18,7 +18,7 @@
         "Cythranai",
         "raiders"
       ],
-      "body": "A people of the island, known to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags."
+      "body": "A people of the island, known to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
     },
     {
       "id": "the-twin-spirits",
@@ -41,17 +41,6 @@
         "gladiatrix"
       ],
       "body": "Holds two titles at once: Marshall of the Cult of Khul Anar and Grand Gladiatrix, champion of the coliseums. The Gladiatrix crown is won like a title belt; few climb high enough to challenge her."
-    },
-    {
-      "id": "khul-anar",
-      "title": "Khul Anar",
-      "category": "Places",
-      "visibility": "player",
-      "tags": [
-        "coliseum",
-        "seat"
-      ],
-      "body": "The seat of the cult and home of its coliseums, where champions are proven in the pits."
     },
     {
       "id": "sontrailles",

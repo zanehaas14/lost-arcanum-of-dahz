@@ -27,7 +27,7 @@ async function renderMap() {
         <span class="pin-dot"></span><span class="pin-label">${esc(r.label)}</span>
       </button>`);
     pin.onclick = () => {
-      if (r.loreId) location.hash = `#/codex`; // future: deep-link to entry
+      if (r.loreId) location.hash = `#/codex/${encodeURIComponent(r.loreId)}`;
     };
     if (!r.loreId) pin.classList.add('no-link');
     stage.appendChild(pin);

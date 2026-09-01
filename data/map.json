@@ -5,11 +5,11 @@
   "height": 1000,
   "regions": [
     {
-      "id": "khul-anar",
-      "label": "Khul Anar",
+      "id": "cult-of-khul-anar",
+      "label": "Cult of Khul Anar",
       "x": 50,
       "y": 55,
-      "loreId": "khul-anar"
+      "loreId": "cult-of-khul-anar"
     },
     {
       "id": "the-everfalls",
