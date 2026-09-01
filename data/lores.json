@@ -1,0 +1,820 @@
+{
+  "_comment": "Auto-generated. Lores of Magic with their spells (signature + 1-6). Spell links go to tow.whfb.app.",
+  "lores": {
+    "battle-magic": {
+      "label": "Battle Magic",
+      "spells": [
+        {
+          "name": "Hammerhand",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/hammerhand"
+        },
+        {
+          "name": "Fireball",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/fireball"
+        },
+        {
+          "name": "Curse of Arrow Attraction",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/curse-of-arrow-attraction"
+        },
+        {
+          "name": "Pillar of Fire",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/pillar-of-fire"
+        },
+        {
+          "name": "Arcane Urgency",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/arcane-urgency"
+        },
+        {
+          "name": "Oaken Shield",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/oaken-shield"
+        },
+        {
+          "name": "Curse of Cowardly Flight",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/curse-of-cowardly-flight"
+        }
+      ]
+    },
+    "daemonology": {
+      "label": "Daemonology",
+      "spells": [
+        {
+          "name": "The Summoning",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/the-summoning"
+        },
+        {
+          "name": "Steed of Shadows",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/steed-of-shadows"
+        },
+        {
+          "name": "Gathering Darkness",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/gathering-darkness"
+        },
+        {
+          "name": "Daemonic Familiars",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/daemonic-familiars"
+        },
+        {
+          "name": "Daemonic Vessel",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/daemonic-vessel"
+        },
+        {
+          "name": "Vortex of Chaos",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/vortex-of-chaos"
+        },
+        {
+          "name": "Daemonic Vigour",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/daemonic-vigour"
+        }
+      ]
+    },
+    "dark-magic": {
+      "label": "Dark Magic",
+      "spells": [
+        {
+          "name": "Doombolt",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/doombolt"
+        },
+        {
+          "name": "Word of Pain",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/word-of-pain"
+        },
+        {
+          "name": "Stream of Corruption",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/stream-of-corruption"
+        },
+        {
+          "name": "Infernal Gateway",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/infernal-gateway"
+        },
+        {
+          "name": "Phantasmagoria",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/phantasmagoria"
+        },
+        {
+          "name": "Battle Lust",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/battle-lust"
+        },
+        {
+          "name": "Soul Eater",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/soul-eater"
+        }
+      ]
+    },
+    "elementalism": {
+      "label": "Elementalism",
+      "spells": [
+        {
+          "name": "Storm Call",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/storm-call"
+        },
+        {
+          "name": "Flaming Sword",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/flaming-sword"
+        },
+        {
+          "name": "Plague of Rust",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/plague-of-rust"
+        },
+        {
+          "name": "Summon Elemental Spirit",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/summon-elemental-spirit"
+        },
+        {
+          "name": "Earthen Ramparts",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/earthen-ramparts"
+        },
+        {
+          "name": "Wind Blast",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/wind-blast"
+        },
+        {
+          "name": "Travel Mystical Pathway",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/travel-mystical-pathway"
+        }
+      ]
+    },
+    "high-magic": {
+      "label": "High Magic",
+      "spells": [
+        {
+          "name": "Drain Magic",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/drain-magic"
+        },
+        {
+          "name": "Walk Between Worlds",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/walk-between-worlds"
+        },
+        {
+          "name": "Fiery Convocation",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/fiery-convocation"
+        },
+        {
+          "name": "Tempest",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/tempest"
+        },
+        {
+          "name": "Corporeal Unmaking",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/corporeal-unmaking"
+        },
+        {
+          "name": "Fury of Khaine",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/fury-of-khaine"
+        },
+        {
+          "name": "Shield of Saphery",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/shield-of-saphery"
+        }
+      ]
+    },
+    "illusion": {
+      "label": "Illusion",
+      "spells": [
+        {
+          "name": "Glittering Robe",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/glittering-robe"
+        },
+        {
+          "name": "Mind Razor",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/mind-razor"
+        },
+        {
+          "name": "Shimmering Dragon",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/shimmering-dragon"
+        },
+        {
+          "name": "Column of Crystal",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/column-of-crystal"
+        },
+        {
+          "name": "Confounding Convocation",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/confounding-convocation"
+        },
+        {
+          "name": "Spectral Doppelganger",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/spectral-doppelganger"
+        },
+        {
+          "name": "Miasmic Mirage",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/miasmic-mirage"
+        }
+      ]
+    },
+    "necromancy": {
+      "label": "Necromancy",
+      "spells": [
+        {
+          "name": "The Dwellers Below",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/the-dwellers-below"
+        },
+        {
+          "name": "Deathly Cabal",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/deathly-cabal"
+        },
+        {
+          "name": "Unquiet Spirits",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/unquiet-spirits"
+        },
+        {
+          "name": "Spiritual Vortex",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/spiritual-vortex"
+        },
+        {
+          "name": "Curse of Years",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/curse-of-years"
+        },
+        {
+          "name": "Spectral Steed",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/spectral-steed"
+        },
+        {
+          "name": "Spirit Leech",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/spirit-leech"
+        }
+      ]
+    },
+    "waaagh-magic": {
+      "label": "Waaagh Magic",
+      "spells": [
+        {
+          "name": "Fist of Gork (or Mork)",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/fist-of-gork-or-mork"
+        },
+        {
+          "name": "Vindictive Glare",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/vindictive-glare"
+        },
+        {
+          "name": "Hand of Mork (or Gork)",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/hand-of-mork-or-gork"
+        },
+        {
+          "name": "Bad Moon Rizin'",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/bad-moon-rizin"
+        },
+        {
+          "name": "Evil Sun Shinin'",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/evil-sun-shinin"
+        },
+        {
+          "name": "'ere We Go!",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/ere-we-go"
+        },
+        {
+          "name": "Foot of Gork (or Mork)",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/foot-of-gork-or-mork"
+        }
+      ]
+    },
+    "troll-magic": {
+      "label": "Troll Magic",
+      "spells": [
+        {
+          "name": "Big Smartz",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/big-smartz"
+        },
+        {
+          "name": "Acidic Bile",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/acidic-bile"
+        },
+        {
+          "name": "Troll Brainz",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/troll-brainz"
+        },
+        {
+          "name": "Ravenous Recourse",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/ravenous-recourse"
+        },
+        {
+          "name": "Foetid Whirlpool",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/foetid-whirlpool"
+        },
+        {
+          "name": "Torrent of Filth",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/torrent-of-filth"
+        },
+        {
+          "name": "Rapid Regeneration",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/rapid-regeneration"
+        }
+      ]
+    },
+    "lore-of-athel-loren": {
+      "label": "Lore of Athel Loren",
+      "spells": [
+        {
+          "name": "Tree Singing",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/tree-singing"
+        },
+        {
+          "name": "Forest Walker",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/forest-walker"
+        },
+        {
+          "name": "Flock of Doom Wood Elves",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/flock-of-doom-wood-elves"
+        }
+      ]
+    },
+    "lore-of-beasts": {
+      "label": "Lore of Beasts",
+      "spells": [
+        {
+          "name": "Viletide",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/viletide"
+        },
+        {
+          "name": "Devolve",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/devolve"
+        },
+        {
+          "name": "Mantle of Ghorok",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/mantle-of-ghorok"
+        }
+      ]
+    },
+    "lore-of-chaos": {
+      "label": "Lore of Chaos",
+      "spells": [
+        {
+          "name": "Winds of Chaos",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/winds-of-chaos"
+        },
+        {
+          "name": "Acquiescence",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/acquiescence"
+        },
+        {
+          "name": "Fleshy Abundance",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/fleshy-abundance"
+        },
+        {
+          "name": "Blue Fire",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/blue-fire"
+        }
+      ]
+    },
+    "lore-of-daemons": {
+      "label": "Lore of Daemons",
+      "spells": [
+        {
+          "name": "Plague Wind",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/plague-wind"
+        },
+        {
+          "name": "Cacophonic Hymn",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/cacophonic-hymn"
+        },
+        {
+          "name": "Pink Fire",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/pink-fire"
+        },
+        {
+          "name": "Gift of Mutation",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/gift-of-mutation"
+        }
+      ]
+    },
+    "lore-of-gork": {
+      "label": "Lore of Gork",
+      "spells": [
+        {
+          "name": "Brain Bursta",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/brain-bursta"
+        },
+        {
+          "name": "Gaze of Gork",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/gaze-of-gork"
+        }
+      ]
+    },
+    "lore-of-hashut": {
+      "label": "Lore of Hashut",
+      "spells": [
+        {
+          "name": "Curse of Hashut",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/curse-of-hashut"
+        },
+        {
+          "name": "Storm of Ash",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/storm-of-ash"
+        },
+        {
+          "name": "Flames of Hashut",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/flames-of-hashut"
+        }
+      ]
+    },
+    "lore-of-lustria": {
+      "label": "Lore of Lustria",
+      "spells": [
+        {
+          "name": "Apotheosis",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/apotheosis"
+        },
+        {
+          "name": "Monsoon",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/monsoon"
+        }
+      ]
+    },
+    "lore-of-naggaroth": {
+      "label": "Lore of Naggaroth",
+      "spells": [
+        {
+          "name": "Cursing Word",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/cursing-word"
+        },
+        {
+          "name": "Black Horror",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/black-horror"
+        }
+      ]
+    },
+    "lore-of-mork": {
+      "label": "Lore of Mork",
+      "spells": [
+        {
+          "name": "Mork’s Curse",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/mork-s-curse"
+        },
+        {
+          "name": "Itchy Nuisance",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/itchy-nuisance"
+        }
+      ]
+    },
+    "lore-of-nehekhara": {
+      "label": "Lore of Nehekhara",
+      "spells": [
+        {
+          "name": "Djaf's Incantation of Cursed Blades",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/djaf-s-incantation-of-cursed-blades"
+        },
+        {
+          "name": "Khsar's Incantation of the Desert Wind",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/khsar-s-incantation-of-the-desert-wind"
+        },
+        {
+          "name": "Usekhp's Incantation of Desiccation",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/usekhp-s-incantation-of-desiccation"
+        }
+      ]
+    },
+    "lore-of-saphery": {
+      "label": "Lore of Saphery",
+      "spells": [
+        {
+          "name": "Hand of Khaine",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/hand-of-khaine"
+        },
+        {
+          "name": "Courage of Aenarion",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/courage-of-aenarion"
+        },
+        {
+          "name": "Vaul's Unmaking",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/vaul-s-unmaking"
+        }
+      ]
+    },
+    "lore-of-the-great-maw": {
+      "label": "Lore of the Great Maw",
+      "spells": [
+        {
+          "name": "Toothcracker",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/toothcracker"
+        },
+        {
+          "name": "Trollguts",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/trollguts"
+        }
+      ]
+    },
+    "lore-of-the-horned-rat": {
+      "label": "Lore of the Horned Rat",
+      "spells": [
+        {
+          "name": "Skitterleap",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/skitterleap"
+        },
+        {
+          "name": "Warp Lightning",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/warp-lightning"
+        },
+        {
+          "name": "Cloud of Corruption",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/cloud-of-corruption"
+        }
+      ]
+    },
+    "lore-of-the-lady": {
+      "label": "Lore of the Lady",
+      "spells": [
+        {
+          "name": "The Lady's Gift",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/the-lady-s-gift"
+        },
+        {
+          "name": "Burning Gaze",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/burning-gaze"
+        },
+        {
+          "name": "The Lady's Wrath",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/the-lady-s-wrath"
+        }
+      ]
+    },
+    "lore-of-undeath": {
+      "label": "Lore of Undeath",
+      "spells": [
+        {
+          "name": "Vanhal's Danse Macabre",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/vanhal-s-danse-macabre"
+        },
+        {
+          "name": "Hellish Vigour",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/hellish-vigour"
+        },
+        {
+          "name": "Raise Dead",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/raise-dead"
+        }
+      ]
+    },
+    "lore-of-the-wilds": {
+      "label": "Lore of the Wilds",
+      "spells": [
+        {
+          "name": "Swirling-mists",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/swirling-mists"
+        },
+        {
+          "name": "Fury of Athel Loren",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/fury-of-athel-loren"
+        },
+        {
+          "name": "Ariel's Blessing",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/ariel-s-blessing"
+        },
+        {
+          "name": "Spiteful Torrent",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/spiteful-torrent"
+        },
+        {
+          "name": "Durthu's Wrath",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/durthu-s-wrath"
+        },
+        {
+          "name": "Hidden Pathways",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/hidden-pathways"
+        },
+        {
+          "name": "Sapping Blight",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/sapping-blight"
+        }
+      ]
+    },
+    "primal-magic": {
+      "label": "Primal Magic",
+      "spells": [
+        {
+          "name": "Primordial Gloom",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/primordial-gloom"
+        },
+        {
+          "name": "Call of the Wild",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/call-of-the-wild"
+        },
+        {
+          "name": "In the Gloaming Wildwood",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/in-the-gloaming-wildwood"
+        },
+        {
+          "name": "Flock of Doom Beastmen",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/flock-of-doom-beastmen"
+        },
+        {
+          "name": "Fury of the Beast",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/fury-of-the-beast"
+        },
+        {
+          "name": "Strangleroot",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/strangleroot"
+        },
+        {
+          "name": "'neath the Shaden Wodespan",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/neath-the-shaden-wodespan"
+        }
+      ]
+    },
+    "lore-of-yang": {
+      "label": "Lore of Yang",
+      "spells": [
+        {
+          "name": "Constellation of the Dragon",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/constellation-of-the-dragon"
+        },
+        {
+          "name": "Great Bastion",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/great-bastion"
+        },
+        {
+          "name": "Might of Heaven & Earth",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/might-of-heaven-earth"
+        }
+      ]
+    },
+    "lore-of-yin": {
+      "label": "Lore of Yin",
+      "spells": [
+        {
+          "name": "Spirits of Wind & Shadow",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/spirits-of-wind-shadow"
+        },
+        {
+          "name": "Accursed Mirror",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/accursed-mirror"
+        },
+        {
+          "name": "Ancestral Warriors",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/ancestral-warriors"
+        }
+      ]
+    },
+    "miao-ying": {
+      "label": "Miao Ying",
+      "spells": [
+        {
+          "name": "The Storm Dragons Fury",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/the-storm-dragons-fury"
+        }
+      ]
+    },
+    "shadowlands": {
+      "label": "Shadowlands",
+      "spells": [
+        {
+          "name": "Maelstrom-of-chaos",
+          "index": "signature",
+          "url": "https://tow.whfb.app/spells/maelstrom-of-chaos"
+        },
+        {
+          "name": "Blackened-bolts",
+          "index": "1",
+          "url": "https://tow.whfb.app/spells/blackened-bolts"
+        },
+        {
+          "name": "Veil-of-gloom",
+          "index": "2",
+          "url": "https://tow.whfb.app/spells/veil-of-gloom"
+        },
+        {
+          "name": "Vortex-of-darkness",
+          "index": "3",
+          "url": "https://tow.whfb.app/spells/vortex-of-darkness"
+        },
+        {
+          "name": "Shadowed-assailants",
+          "index": "4",
+          "url": "https://tow.whfb.app/spells/shadowed-assailants"
+        },
+        {
+          "name": "Crawling-mists",
+          "index": "5",
+          "url": "https://tow.whfb.app/spells/crawling-mists"
+        },
+        {
+          "name": "Chains-of-darkness",
+          "index": "6",
+          "url": "https://tow.whfb.app/spells/chains-of-darkness"
+        }
+      ]
+    }
+  }
+}

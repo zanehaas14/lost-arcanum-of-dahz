@@ -1,0 +1,37 @@
+{
+  "_comment": "List-construction rules for the Army Builder. Edit caps here to match your group's house rules. Percentages are of the game's points cap. minPercent/maxPercent may be null (no limit).",
+  "pointsPresets": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "defaultPoints": 2000,
+  "categories": [
+    {
+      "key": "Characters",
+      "label": "Characters",
+      "minPercent": null,
+      "maxPercent": 50
+    },
+    {
+      "key": "Core",
+      "label": "Core",
+      "minPercent": 25,
+      "maxPercent": null
+    },
+    {
+      "key": "Special",
+      "label": "Special",
+      "minPercent": null,
+      "maxPercent": 50
+    },
+    {
+      "key": "Rare",
+      "label": "Rare",
+      "minPercent": null,
+      "maxPercent": 25
+    }
+  ]
+}

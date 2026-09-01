@@ -1,0 +1,234 @@
+{
+  "_comment": "Homebrew override layer for Wood Elf Realms. Hand-maintained and LOCKED; re-applied on top of official data every time tools/update-data.py runs, so OWB refreshes never overwrite it. FOUR operations (all optional): 'units' = net-new custom units (added alongside official). 'patches' = {officialId: {field: value}} edit only the named fields of an official unit; everything else keeps flowing from OWB; e.g. \"patches\": {\"glade-lord\": {\"points\": 120}}. 'replace' = {officialId: {full unit}} swap an official unit wholesale. 'remove' = [officialId, ...] hide official units you don't field. To ACCEPT an upstream change you've been overriding, delete that patch entry. Field notes: 'points' = cost at minimum size; 'perModel' = each extra model (null for single models). In a patch, a list field REPLACES the official list wholesale (restate all entries). STANDING RULE (Cythranai): characters draw magic items from ALL elf lists (Wood/High/Dark Elf + general) via itemSources — inert until a character is given a magicAllowances picker.",
+  "patches": {
+    "deepwood-scouts": {
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon, Asrai longbows",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "notes": "House rule: may take Light armour and an Additional hand weapon (both free)."
+    },
+    "deepwood-scouts-core": {
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon, Asrai longbows",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "notes": "House rule: may take Light armour and an Additional hand weapon (both free)."
+    },
+    "glade-riders": {
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "notes": "House rule: may take Light armour (free)."
+    },
+    "waywatchers": {
+      "specialRules": [
+        "Elven Reflexes",
+        "Evasive",
+        "Feigned Flight",
+        "Fire & Flee",
+        "Ignores Cover",
+        "Move Through Cover",
+        "Scouts",
+        "Skirmishers",
+        "Hawk-Eyed Hunters"
+      ]
+    },
+    "dryads": {
+      "points": 60,
+      "perModel": 12,
+      "armor": [
+        {
+          "name": "5+ armour save (Sapwood flesh)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "notes": "House rule: 5+ armour save (was light/Sapwood 6+). 12 pts/model (was 13)."
+    },
+    "spellweaver": {
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 3
+    },
+    "spellsinger": {
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
+    },
+    "treeman-ancient": {
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 2
+    },
+    "branchwraith": {
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
+    },
+    "shadowdancer": {
+      "lores": [
+        "battle-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
+    }
+  },
+  "replace": {},
+  "remove": [],
+  "units": [
+    {
+      "id": "hb-gareth",
+      "name": "Gareth, General of the Savage Drake",
+      "category": "Characters",
+      "points": 293,
+      "perModel": null,
+      "minSize": 1,
+      "type": "homebrew",
+      "notes": "All-in: Glade Lord chassis + Huarath (65pt monstrous-cav mount) + Biting Blade, Merciw's Locus, Aspect of the Bear (items <=100). Anvil-general, T5 in play. Must lead Knights of the Savage Drake.",
+      "itemSources": [
+        "general",
+        "wood-elf-realms",
+        "high-elf-realms",
+        "dark-elves"
+      ]
+    },
+    {
+      "id": "hb-daedilae",
+      "name": "Daedilae on Lothaqshynin",
+      "category": "Characters",
+      "points": 410,
+      "perModel": null,
+      "minSize": 1,
+      "type": "homebrew",
+      "notes": "High Priestess on the dragon Lothaqshynin, Level 3 wizard + Aspect of the Cat. Flying hammer / character-killer (Killing Blow + Armour Bane).",
+      "itemSources": [
+        "general",
+        "wood-elf-realms",
+        "high-elf-realms",
+        "dark-elves"
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 3
+    },
+    {
+      "id": "hb-rephal",
+      "name": "Rephal Morgeil",
+      "category": "Characters",
+      "points": 130,
+      "perModel": null,
+      "minSize": 1,
+      "type": "homebrew",
+      "notes": "Waystalker chassis + 2-shot Sword of Sorrow (~40) + Manbane (10). Character-assassin: AP, always-wound sniping.",
+      "itemSources": [
+        "general",
+        "wood-elf-realms",
+        "high-elf-realms",
+        "dark-elves"
+      ]
+    },
+    {
+      "id": "hb-high-priestess",
+      "name": "High Priestess of Khul Anar (foot)",
+      "category": "Characters",
+      "points": 110,
+      "perModel": null,
+      "minSize": 1,
+      "type": "homebrew",
+      "notes": "On-foot caster; 5+ ward (blessing), Spear of Loec w/ Flame Bloom, Strike First + Killing Blow. Optional decapitation blade.",
+      "itemSources": [
+        "general",
+        "wood-elf-realms",
+        "high-elf-realms",
+        "dark-elves"
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 2
+    },
+    {
+      "id": "hb-winged-guard",
+      "name": "Winged Guard (Daedilae's Guard)",
+      "category": "Special",
+      "points": 110,
+      "perModel": 22,
+      "minSize": 5,
+      "type": "homebrew",
+      "notes": "Flying elite: Fly 8, 5+ ward, A3, Sundering Blow, Killing-Blow stance. Glass but fast."
+    },
+    {
+      "id": "hb-knights-savage-drake",
+      "name": "Knights of the Savage Drake",
+      "category": "Special",
+      "points": 136,
+      "perModel": 68,
+      "minSize": 2,
+      "type": "homebrew",
+      "notes": "Monstrous cavalry (Gareth's unit). Repeatable for MSU. W3, Red Blessing once per combat."
+    }
+  ]
+}

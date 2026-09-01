@@ -1,0 +1,22 @@
+{
+  "_comment": "Interactive map config. 'image' is a file in assets/ (add your own map art). Regions are clickable pins placed by percentage of the image (x%, y% from top-left). 'loreId' links a pin to a lore.json entry so clicking it opens the Codex. Until a real image is added, the app shows a placeholder grid.",
+  "image": "",
+  "width": 1600,
+  "height": 1000,
+  "regions": [
+    {
+      "id": "khul-anar",
+      "label": "Khul Anar",
+      "x": 50,
+      "y": 55,
+      "loreId": "khul-anar"
+    },
+    {
+      "id": "the-everfalls",
+      "label": "The Everfalls",
+      "x": 32,
+      "y": 34,
+      "loreId": ""
+    }
+  ]
+}

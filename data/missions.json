@@ -1,0 +1,66 @@
+{
+  "_comment": "Hand-edited. official = pitched-battle D6, custom = group missions, each official entry carries its own deployment so Game Mode does not roll a second contradicting map.",
+  "official": [
+    {
+      "name": "Open Battle",
+      "d6": 1,
+      "url": "https://tow.whfb.app/warhammer-battles/open-battle",
+      "deployment": "zones A & B, long edges, alternate units",
+      "firstTurn": "roll-off, +1 if finished deploying first",
+      "notes": "Straight fight, VP."
+    },
+    {
+      "name": "Break Point",
+      "d6": 2,
+      "url": "https://tow.whfb.app/warhammer-battles/break-point-warhammer-battles",
+      "deployment": "zones A & B, long edges, alternate units",
+      "firstTurn": "roll-off, +1 if finished deploying first",
+      "notes": "Fight until an army hits break point."
+    },
+    {
+      "name": "Flank Attack",
+      "d6": 3,
+      "url": "https://tow.whfb.app/warhammer-battles/flank-attack",
+      "deployment": "main force centre zone; flanking force on a chosen short-edge after both mains are down",
+      "firstTurn": "roll-off",
+      "notes": "Hidden flanking forces."
+    },
+    {
+      "name": "Meeting Engagement",
+      "d6": 4,
+      "url": "https://tow.whfb.app/warhammer-battles/meeting-engagement",
+      "deployment": "A & B; some units start in reserve (rolled per unit)",
+      "firstTurn": "roll-off",
+      "notes": "Reserves."
+    },
+    {
+      "name": "Mountain Pass",
+      "d6": 5,
+      "url": "https://tow.whfb.app/warhammer-battles/mountain-pass",
+      "deployment": "A & B on a long narrow table; long edges are cliff walls",
+      "firstTurn": "roll-off, +1 if finished deploying first",
+      "notes": "Bottleneck table."
+    },
+    {
+      "name": "Command & Control",
+      "d6": 6,
+      "url": "https://tow.whfb.app/warhammer-battles/command-and-control",
+      "deployment": "A & B; one special feature in table centre",
+      "firstTurn": "roll-off, +1 if finished deploying first",
+      "notes": "Hold the centre feature."
+    }
+  ],
+  "custom": [
+    {
+      "name": "Example — Raid the Baggage",
+      "notes": "Placeholder homebrew mission. Edit or replace with your group's own."
+    }
+  ],
+  "deployments": [
+    "Pitched Battle long-edge A&B"
+  ],
+  "objectives": {
+    "terrainPieces": "Place a handful of terrain features, alternating.",
+    "objectiveMarkers": "Add markers only if the chosen mission uses them."
+  }
+}

@@ -1,0 +1,4711 @@
+{
+  "_comment": "Auto-generated. Magic items grouped by faction/category.",
+  "groups": {
+    "general": [
+      {
+        "name": "Ogre Blade",
+        "points": 75,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cackling Blade",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Battle",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Duellist's Blades",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dragon Slaying Sword",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Meteor Hammer",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Reaving",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Headsman's Axe",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Flail of Wrecks",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Grim Verdict",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spelleater Axe",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Giant Blade",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hell-Forged Axe",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Sorrow",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Swiftness",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skirmisher's Blade",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Berserker Blade",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Might*",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": false
+      },
+      {
+        "name": "Thornspitter Stave",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hunter's Scorn",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Biting Blade",
+        "points": 15,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Striking*",
+        "points": 15,
+        "type": "weapon",
+        "onePerArmy": false
+      },
+      {
+        "name": "Trailblazer's Hatchet",
+        "points": 15,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Diestro's Blade",
+        "points": 10,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Burning Blade*",
+        "points": 5,
+        "type": "weapon",
+        "onePerArmy": false
+      },
+      {
+        "name": "Armour of Destiny",
+        "points": 70,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bedazzling Helm",
+        "points": 60,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Silvered Steel",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Dark Faith",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Glittering Scales",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scale of False Promise",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of the Warrior True",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Levitating Shield",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spellshield*",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Helm of Courage",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Meteoric Iron",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Trailblazer's Hauberk",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Padded Hauberk",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mantle of Drifting Shadow",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Iron-rimmed Shield",
+        "points": 15,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Enchanted Shield*",
+        "points": 10,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Shadowed Mantle",
+        "points": 10,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Charmed Shield*",
+        "points": 5,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Dawnstone",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Fortitude",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ironhide Talisman",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Talisman of Protection",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Talisman of Authority",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Paymaster's Coin*",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Amulet of Spell Attraction",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Obsidian Lodestone*",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Periapt of Soul Exchange",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Luckstone*",
+        "points": 15,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "The Warding Talisman",
+        "points": 15,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Iron Resolve",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Steadfast",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Totem of Wrath",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Banner of The Dark Heart",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Razor Standard",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rampaging Banner",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Swirling Wind",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Monster Hunter's Tapestry",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Blazing Banner",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "War Banner",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Renown",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of The Fell Warrior",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Banner of The Bold",
+        "points": 10,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wizarding Hat",
+        "points": 45,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Arch-Lightning Rod",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Flying Carpet",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Healing Potion*",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Ruby Ring of Ruin",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Potion of Fervour",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Potion of Strength*",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Ring of Doom",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Potion of Toughness*",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Becalming Orb",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Ranger's Glass",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The All-Seeing Eye of Numas",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon-Blooded Steed",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Elixir of Power",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Potion of Speed*",
+        "points": 10,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wilderness Map*",
+        "points": 10,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Potion of Foolhardiness*",
+        "points": 5,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Enchanted Almanack",
+        "points": 5,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Feedback Scroll",
+        "points": 60,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Transmogrification*",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rod of Might",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wand of Jet",
+        "points": 45,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Staff of Quietude",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Disruption",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tome of Spellcraft",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Lore Familiar",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Invocation*",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Infernal Familiar",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Power Scroll*",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Dispel Scroll*",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Arcane Familiar",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Fiery Convocation*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of Deathly Whispers*",
+        "points": 10,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wyrdstone Shard",
+        "points": 10,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Earthing Rod",
+        "points": 5,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Obfuscation*",
+        "points": 5,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "kingdom-of-bretonnia": [
+      {
+        "name": "Sword of the Quest",
+        "points": 70,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Heroes",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Heartwood Lance",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Morning Star of Fracasse",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crusader's Lance",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Frontier Axe",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of the Stout Hearted",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Foebreaker",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gilded Cuirass",
+        "points": 60,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gromril Great Helm",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Anointed Armour",
+        "points": 45,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ironspike Shield",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mantle of the Damsel Elena",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sirienne's Locket",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Grail Pendant",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Lucky Heirloom*",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Valorous Standard",
+        "points": 60,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Conqueror's Tapestry",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Errantry Banner",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Châlons",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Lady's Grace",
+        "points": 75,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crusader's Tapestry",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Zealous Knight",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Honourable Warfare",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Falcon-horn of Fredemund",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Antlers of the Great Hunt",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gauntlet of the Duel*",
+        "points": 5,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "The Seal of Parravon",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crusader's Clarion",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wyrmbreath Vial",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Silver Mirror",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sacrament of the Lady*",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Prayer Icon of Quenelles",
+        "points": 25,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Heart of the Wilds",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Diadem of Power",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Flamestrike Wand",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "knightly-virtues": [
+      {
+        "name": "Virtue of Knightly Temper",
+        "points": 70,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Heroism",
+        "points": 60,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Stoicism",
+        "points": 55,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of the Penitent",
+        "points": 50,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of the Ideal",
+        "points": 45,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of the Impetuous Knight",
+        "points": 40,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Audacity",
+        "points": 35,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Purity",
+        "points": 30,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Duty",
+        "points": 25,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of the Joust",
+        "points": 20,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Confidence",
+        "points": 15,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Noble Disdain",
+        "points": 10,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Empathy",
+        "points": 5,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      },
+      {
+        "name": "Virtue of Discipline",
+        "points": 5,
+        "type": "knightly-virtue",
+        "onePerArmy": true
+      }
+    ],
+    "empire-of-man": [
+      {
+        "name": "Runefang",
+        "points": 100,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mace of Helsturm",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Justice",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hammer of Righteousness",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pearl Daggers",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blade of Silvered Steel",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dragon Bow",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Von Trickschotte's Wondrous Arquebus",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Fortune",
+        "points": 45,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of the Gorgon",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Tarnus",
+        "points": 35,
+        "type": "armor-mages",
+        "onePerArmy": true
+      },
+      {
+        "name": "Twice-Blessed Armour",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The White Cloak",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jade Amulet*",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Witch Hunter's Ward*",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Slayer's Hourglass",
+        "points": 10,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Knights Panther",
+        "points": 80,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Imperial Banner",
+        "points": 60,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Griffon Standard",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tapestry of Sigmar's Triumph",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Morr",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Banner of the Free State of Nuln",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Gleaming Pennant",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Duty",
+        "points": 10,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Laurels of Victory",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Squintsoffen's Marvellous Magnifier",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ring of Fortune",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ring of Taal",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Silver Horn",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shroud of Iron",
+        "points": 10,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Book of Ashur",
+        "points": 85,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Twin-Tailed Wand",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wizard's Familiar*",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Tome of Midnight",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wizard's Staff*",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Crystal Ball",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "dwarfen-mountain-holds": [
+      {
+        "name": "Master Rune of Smiting",
+        "points": 75,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Skalf Blackhammer",
+        "points": 65,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Alaric the Mad",
+        "points": 45,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Dragon Slaying",
+        "points": 35,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Flight",
+        "points": 25,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Swiftness",
+        "points": 25,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Breaking",
+        "points": 25,
+        "type": "weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Parrying",
+        "points": 35,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Banishment",
+        "points": 25,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Fury*",
+        "points": 25,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Grudge Rune*",
+        "points": 20,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Might*",
+        "points": 20,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Cleaving*",
+        "points": 15,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Striking*",
+        "points": 15,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Fire",
+        "points": 10,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Speed*",
+        "points": 5,
+        "type": "weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Master Rune of Slaying",
+        "points": 50,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Piercing",
+        "points": 40,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Bursting Flame",
+        "points": 35,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Concussive Force",
+        "points": 30,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Accuracy",
+        "points": 20,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Rapid Fire",
+        "points": 15,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Molten Steel",
+        "points": 10,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Enchanted Rune",
+        "points": 5,
+        "type": "ranged-weapon-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Master Rune of Adamant",
+        "points": 100,
+        "type": "armor-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Gromril",
+        "points": 45,
+        "type": "armor-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Iron",
+        "points": 35,
+        "type": "armor-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Fortitude*",
+        "points": 30,
+        "type": "armor-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Preservation",
+        "points": 25,
+        "type": "armor-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Shielding*",
+        "points": 15,
+        "type": "armor-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Stone*",
+        "points": 5,
+        "type": "armor-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Master Rune of Calm",
+        "points": 50,
+        "type": "talismanic-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Balance",
+        "points": 35,
+        "type": "talismanic-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Spite",
+        "points": 35,
+        "type": "talismanic-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Spellbreaking*",
+        "points": 25,
+        "type": "talismanic-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Warding*",
+        "points": 20,
+        "type": "talismanic-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Luck*",
+        "points": 15,
+        "type": "talismanic-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of the Furnace",
+        "points": 5,
+        "type": "talismanic-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Passage",
+        "points": 5,
+        "type": "talismanic-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Master Rune of Grungni",
+        "points": 80,
+        "type": "banner-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Stromni Redbeard",
+        "points": 75,
+        "type": "banner-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Hesitation",
+        "points": 45,
+        "type": "banner-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Confusion",
+        "points": 35,
+        "type": "banner-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Fear",
+        "points": 30,
+        "type": "banner-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Battle",
+        "points": 25,
+        "type": "banner-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Strollaz' Rune",
+        "points": 25,
+        "type": "banner-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Courage",
+        "points": 15,
+        "type": "banner-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Master Rune of Immolation",
+        "points": 30,
+        "type": "engineering-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master Rune of Disguise",
+        "points": 25,
+        "type": "engineering-runes",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of Skewering",
+        "points": 20,
+        "type": "engineering-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Forging*",
+        "points": 15,
+        "type": "engineering-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Burning",
+        "points": 10,
+        "type": "engineering-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Reloading",
+        "points": 5,
+        "type": "engineering-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Stalwart Rune",
+        "points": 5,
+        "type": "engineering-runes",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of the Dishonoured",
+        "points": 50,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Endless Battle",
+        "points": 40,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of the Reckless",
+        "points": 35,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of the Hateful",
+        "points": 30,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Grit",
+        "points": 25,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of the Dauntless",
+        "points": 15,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Wrath",
+        "points": 15,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Warrior's Rune",
+        "points": 10,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Blazing Fury",
+        "points": 5,
+        "type": "runic-tattoos",
+        "onePerArmy": false
+      }
+    ],
+    "orc-and-goblin-tribes": [
+      {
+        "name": "Battleaxe of the last big Waaagh!",
+        "points": 75,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bigger Choppier Axe",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Martog's Best Basha",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Porko's Pigstikka",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Choppiest Choppa",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Akrit Axe",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Backstabber's Blade*",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wollopa's One Hit Wunda",
+        "points": 15,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Trollhide Trousers",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dead 'Ard Armour",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Mork",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spiteful Shield",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sparkly Wizard Finda",
+        "points": 45,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Effigy of Mork",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Glowy Green Amulet",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Collar of Zorga",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Big Red Raggedy Flag",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Waaagh! Banner",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Angry Ladz Flag",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Spider Banner",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Banner of Butchery",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Banner of Da Nomadz",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Wildz",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Guff's Windy Banner",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Necklace of Blessed Teef",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Big Boss 'At",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Grisly Trophy Rack",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Thinkin' Orc's 'At",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "'Eadbuttin' 'At*",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Fungus Wine*",
+        "points": 10,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Staff of Baduumm",
+        "points": 55,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Idol of Gork",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Glittering Wotnots",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Buzgob's Knobbly Staff",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Idol of Mork",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Da Hag's Brew",
+        "points": 25,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "beastmen-brayherds": [
+      {
+        "name": "The Black Maul",
+        "points": 80,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Primeval Club",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Axe of Men",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mangelder",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Axes of Khorgor",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hunter's Spear",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Brass Cleaver",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scimitar of Skultar",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pelt of the Dark Young",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Full Plate Chaos Armour*",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Heavy Chaos Armour*",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "The Blackened Plate",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Fur of Sharggu",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Full Plate Chaos Armour*",
+        "points": 40,
+        "type": "armor-mages",
+        "onePerArmy": false
+      },
+      {
+        "name": "Heavy Chaos Armour*",
+        "points": 30,
+        "type": "armor-mages",
+        "onePerArmy": false
+      },
+      {
+        "name": "Chalice of Dark Rain",
+        "points": 50,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of the True Beast",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cornucopia of Corpulence",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dark Heart*",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Totem of Rust",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Gore Banner",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Warped Moon",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Manbane Standard",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Beast Banner",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Vitriolic Totem",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Outrage",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Soiled Tapestry",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Stone of Spite",
+        "points": 45,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Horn of the Great Hunt",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Horn of the First Beast",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scourge of the Burdened",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skin of Man",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cacophonous Dirge",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Plague Chalice",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blood of the Shadowgave*",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Hagtree Fetish",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon Heart",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jagged Dagger",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Goretooth*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "forest-spites": [
+      {
+        "name": "A Blight of Terrors",
+        "points": 50,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "A Muster of Malevolents",
+        "points": 40,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "A Befuddlement of Mischiefs",
+        "points": 30,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "A Murder of Spites",
+        "points": 25,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "A Lamentation of Despairs",
+        "points": 20,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "An Annoyance of Netlings",
+        "points": 15,
+        "type": "forest-spite",
+        "onePerArmy": true
+      },
+      {
+        "name": "A Resplendence of Luminescents",
+        "points": 10,
+        "type": "forest-spite",
+        "onePerArmy": true
+      }
+    ],
+    "tomb-kings-of-khemri": [
+      {
+        "name": "Destroyer of Eternities",
+        "points": 75,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crook & Flail of Radiance",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Flail of Skulls",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Serpent Staff",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blade of Antarhak",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Conqueror's Blade",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Phakth's Blades of Justice",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Staff of Aeons",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of the Ages",
+        "points": 50,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Royal Mantle",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Warding Splint",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of Ptra",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Warding Splint",
+        "points": 35,
+        "type": "armor-mages",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crown of Kings*",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Collar of Shapesh",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Amulet of the Serpent",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Relic of the Desert Sun",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of the Cursing Word",
+        "points": 80,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of the Sacred Eye",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Rakaph",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mirage Banner",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Royal Standard of Settra",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sigil of Centuries",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tapestry of Conquered Lands",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Desert Winds",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cloak of the Dunes",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Rulership*",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Death Mask of Kharnutt",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Staff of Awakening",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Orb of Ptra",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Enkhil's Kanopi",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hieratic Jar*",
+        "points": 25,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scarab Brooch",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Phâzerakt's Kanopi",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Curse-Weaver Wand",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tablets of Tahoth*",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "warriors-of-chaos": [
+      {
+        "name": "Daemonsword",
+        "points": 75,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Obsidian Dread-Glaive",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Chaos Runesword",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Filth Mace",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dagger of the Dark Pantheon",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Chieftain's Blade",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Taskmaster's Scourge",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spellthieving Sword",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of the Damned",
+        "points": 70,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemonic Platemail",
+        "points": 50,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crimson Armour of Dargan",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mighty Serpent's Scalemail",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Talisman of the Carrion Crow",
+        "points": 45,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crown of Everlasting Conquest",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Talisman of the Soaring Eagle",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Brazen Collar*",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Banner of the Gods",
+        "points": 75,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Doom Totem",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Dark Powers",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blasted Standard",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Rage",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Baying Hound",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sea Raider's Crest",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Darkness",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bloodskull Pendant",
+        "points": 45,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rod of the Damned",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon-Forged Barding",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pendant of Damnation",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Helm of Many Eyes",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Favour of the Gods*",
+        "points": 5,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Skull of Katam",
+        "points": 60,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sceptre of Power",
+        "points": 55,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Infernal Puppet",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Grimoire of Ogvold",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tome of the Dark Gods",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spell Familiar*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "gifts-of-chaos": [
+      {
+        "name": "Dark Majesty",
+        "points": 50,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon-Flesh",
+        "points": 45,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Extra Arm",
+        "points": 40,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Diabolic Splendour",
+        "points": 35,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Enchanting Aura",
+        "points": 35,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Aura of Pain",
+        "points": 30,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master of Mortals",
+        "points": 25,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Acid Ichor",
+        "points": 15,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      },
+      {
+        "name": "Poisonous Slime",
+        "points": 15,
+        "type": "gift-of-chaos",
+        "onePerArmy": true
+      }
+    ],
+    "chaos-mutations": [
+      {
+        "name": "Slug-skin",
+        "points": 50,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crown of Horns {beastmen}",
+        "points": 45,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Muscular Monstrosity",
+        "points": 35,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pelt of Midnight",
+        "points": 35,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gouge-tusks",
+        "points": 30,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune of the Beast Ascendant",
+        "points": 25,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Many-limbed Fiend",
+        "points": 20,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gnarled Hide",
+        "points": 15,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      },
+      {
+        "name": "Uncanny Senses",
+        "points": 10,
+        "type": "chaos-mutation",
+        "onePerArmy": true
+      }
+    ],
+    "chaotic-traits": [
+      {
+        "name": "Unnatural Fortitude",
+        "points": 20,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Dark Hearts",
+        "points": 20,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Longstriders",
+        "points": 15,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Enhanced Reflexes",
+        "points": 10,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Battle Hunger",
+        "points": 10,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Brazen Will",
+        "points": 10,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      },
+      {
+        "name": "Prophetic Foresight",
+        "points": 10,
+        "type": "chaotic-trait",
+        "onePerArmy": false
+      }
+    ],
+    "wood-elf-realms": [
+      {
+        "name": "Spear of Twilight",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Vaul's Wrath",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blades of Loec",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daith's Reaper",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bow of Loren",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hunt Master's Pride",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blades of Endless Flame",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Asyendi's Bane",
+        "points": 10,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Helm of the Hunt",
+        "points": 50,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Mantle of Rebirth",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Railarian's Mantle",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Merciw's Locus",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cloak of Tumbling Leaves",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Glamourweave",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ariel's Favour",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Orion's Favour",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tapestry of Talsyn",
+        "points": 80,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Wildwood",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Hunter King",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Wild Hunt",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Morning's Chill",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Springtide",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Eternal Queen",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Midsummer's Eve",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wraithstone",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hail of Doom Arrow*",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Crown of Antlers",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Moonstone of the Hidden Ways",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wailing Arrow*",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Blight-Tipped Arrows*",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Deepwood Sphere",
+        "points": 45,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Oaken Stave",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Orb of Midsummer",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Wand of Wych Elm",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sigil of the Mage Queen",
+        "points": 25,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Heartwood Pendant*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "high-elf-realms": [
+      {
+        "name": "Woodsman's Axe",
+        "points": 90,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The White Sword",
+        "points": 70,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Blade of Leaping Gold",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bow of the Seafarer",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Star Lance",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blade of Sea Gold",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Reaver Bow",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Foe Bane",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Stars",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Caledor",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Golden Shield",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dragon Helm",
+        "points": 10,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Circlet of Atrazar",
+        "points": 55,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sacred Incense",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Loremaster's Cloak",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Opal Amulet*",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Banner of Resilience",
+        "points": 80,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Arcane Protection",
+        "points": 70,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Battle Banner",
+        "points": 60,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Banner of Lothern",
+        "points": 55,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Lion Standard",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Balance",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Ellyrion",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Confidence",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Null Stone",
+        "points": 75,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Amulet of the Tempest",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Cloak of Beards",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ring of Fury*",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Seed of Rebirth",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gem of Courage*",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "The Vortex Shard",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sigil of Asuryan*",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "The Trickster's Pendant",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Annulian Crystal",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Silvery Wand",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Staff of Solidity",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "elven-honours": [
+      {
+        "name": "Loremaster",
+        "points": 35,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Shadow Stalker",
+        "points": 20,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Anointed of Asuryan",
+        "points": 15,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Blood of Caledor",
+        "points": 15,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Chracian Hunter",
+        "points": 10,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Warden of Saphery",
+        "points": 10,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Pure of Heart",
+        "points": 0,
+        "type": "elven-honour",
+        "onePerArmy": false
+      },
+      {
+        "name": "Sea Guard",
+        "points": 0,
+        "type": "elven-honour",
+        "onePerArmy": false
+      }
+    ],
+    "chaos-dwarfs": [
+      {
+        "name": "Black Hammer of Hashut",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dark Maul",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dagger of Malice",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Graven Sceptre",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Bazherak the Cruel",
+        "points": 50,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Mask of the Furnace",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mantle of Stone*",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Hellshard",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Lammasu's Beard",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ashen Banner",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Overseer's Sigil",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shroud of the Ancestor",
+        "points": 10,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemonic Familiar",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Breath of Hashut",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Obsidian Vambraces",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon Flask",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Vial of Lammasu Blood",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scroll of Binding*",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "lizardmen": [
+      {
+        "name": "Blade of Revered Tzunki",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Scimitar of the Sun Resplendent",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Staff of the Lost Sun",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Piranha Blade",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of the Mirror Pool",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hide of the Cold Ones",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Glyph Necklace",
+        "points": 45,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Aura of Quetzl",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sun Standard of Chotec",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sun Standard of Chotec",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skavenpelt Banner",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Totem of Prophecy",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jaguar Standard",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jaguar Standard",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cloak of Feathers",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Venom of the Firefly Frog",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Horned One*",
+        "points": 10,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Cube of Darkness*",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Itxi Grub*",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Itxi Grub*",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Cupped Hands of the Old Ones",
+        "points": 55,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "disciplines-old-ones": [
+      {
+        "name": "The Focused Rumination",
+        "points": 65,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Higher State of Consciousness",
+        "points": 60,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Focus of Mystery",
+        "points": 45,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wandering Deliberations",
+        "points": 35,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Transcendent Healing",
+        "points": 35,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Becalming Cogitation",
+        "points": 30,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Sorcerous Void",
+        "points": 25,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Harrowing Scrutiny",
+        "points": 20,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      },
+      {
+        "name": "Soul of Stone",
+        "points": 15,
+        "type": "discipline-old-ones",
+        "onePerArmy": false
+      }
+    ],
+    "dark-elves": [
+      {
+        "name": "Executioner's Axe",
+        "points": 70,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Ruin",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Lifetaker",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Whip of Agony",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of Ghrond",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blood Armour",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pendant of Khaeleth",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Pearl of Infinite Bleakness",
+        "points": 15,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Nagarythe",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Slaughter",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Har Ganeth",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cold-Blooded Banner",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Black Dragon Egg",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hydra's Tooth",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Guiding Eye",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Black Staff",
+        "points": 55,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Focus Familiar*",
+        "points": 10,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Tome of Furion",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "ogre-kingdoms": [
+      {
+        "name": "Thundermace",
+        "points": 90,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tenderiser",
+        "points": 70,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skullplucker",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bloodcleaver",
+        "points": 30,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gut Maw",
+        "points": 45,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Gut Maw",
+        "points": 45,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mastodon Armour",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spangleshard",
+        "points": 30,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spangleshard",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cathayan Jet Pendant*",
+        "points": 10,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Dragonhide Banner",
+        "points": 75,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dragonhide Banner",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rune Maw",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cannibal Totem",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Bull Standard",
+        "points": 20,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jade Lion",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemon-Slayer Scars*",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Fistful of Laurels*",
+        "points": 15,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Grut's Sickle",
+        "points": 40,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Halfling Cookbook",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hellheart",
+        "points": 20,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Tooth-Gnoblar*",
+        "points": 10,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "big-names": [
+      {
+        "name": "Beastkiller",
+        "points": 40,
+        "type": "big-name",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mawseeker",
+        "points": 30,
+        "type": "big-name",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mawseeker",
+        "points": 30,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wallcrusher",
+        "points": 30,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Mountaineater",
+        "points": 25,
+        "type": "big-name",
+        "onePerArmy": true
+      },
+      {
+        "name": "Mountaineater",
+        "points": 25,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Giantbreaker",
+        "points": 20,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Kineater",
+        "points": 15,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Longstrider",
+        "points": 10,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Beastkiller",
+        "points": 5,
+        "type": "big-name",
+        "onePerArmy": false
+      },
+      {
+        "name": "Deathcheater",
+        "points": 5,
+        "type": "big-name",
+        "onePerArmy": false
+      }
+    ],
+    "skaven": [
+      {
+        "name": "The Fellblade",
+        "points": 100,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Weeping Blade",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blade of Nurglitch",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Death Globe*",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": false
+      },
+      {
+        "name": "Warpstone Armour*",
+        "points": 25,
+        "type": "armor",
+        "onePerArmy": false
+      },
+      {
+        "name": "Cautious Shield",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Warpstone Armour*",
+        "points": 25,
+        "type": "armor-mages",
+        "onePerArmy": false
+      },
+      {
+        "name": "Shadow Magnet",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Warpstone Amulet",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Storm Banner",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Grand Banner of Superiority",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dwarf Hide Banner",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Verminous Scurrying",
+        "points": 35,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Brass Orb",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skalm",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skavenbrew*",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Warp Condenser",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Storm Daemon",
+        "points": 30,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Warpstone Tokens*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      }
+    ],
+    "vampire-counts": [
+      {
+        "name": "Banner of the Barrows",
+        "points": 65,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Drakenhof Banner",
+        "points": 50,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Screaming Banner",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Hellish Vigour",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Frostblade",
+        "points": 60,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sword of Kings",
+        "points": 55,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Blood Drinker",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dreadlance",
+        "points": 40,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Flayed Hauberk",
+        "points": 35,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Accursed Armour",
+        "points": 30,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Flayed Hauberk",
+        "points": 35,
+        "type": "armor-mages",
+        "onePerArmy": true
+      },
+      {
+        "name": "Helm of Commandment",
+        "points": 40,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Hand of Dust",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Cloak of Mist & Shadows",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skull Staff",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sceptre of De Noirot",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spell Familiar*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Von Carstein Ring",
+        "points": 40,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crown of the Damned",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-gifts-common": [
+      {
+        "name": "Æther Blade",
+        "points": 55,
+        "type": "daemonic-gift-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Æther Blade",
+        "points": 50,
+        "type": "daemonic-gift-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Many Arms*",
+        "points": 55,
+        "type": "daemonic-gift-common",
+        "onePerArmy": false
+      },
+      {
+        "name": "Winged Horror",
+        "points": 50,
+        "type": "daemonic-gift-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Winged Horror",
+        "points": 45,
+        "type": "daemonic-gift-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Daemonic Robes",
+        "points": 35,
+        "type": "daemonic-gift-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Many Arms* {renegade}",
+        "points": 30,
+        "type": "daemonic-gift-common",
+        "onePerArmy": false
+      },
+      {
+        "name": "Chromatic Tome* {renegade}",
+        "points": 20,
+        "type": "daemonic-gift-common",
+        "onePerArmy": false
+      }
+    ],
+    "daemonic-icons-common": [
+      {
+        "name": "Exalted Locus {renegade}",
+        "points": 60,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Unholy Victory",
+        "points": 60,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Unholy Victory",
+        "points": 50,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Totem of Eternal War",
+        "points": 45,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Chaotic Glory",
+        "points": 30,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Chaotic Glory {renegade}",
+        "points": 15,
+        "type": "daemonic-icon-common",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-gifts-khorne": [
+      {
+        "name": "Spell Eater",
+        "points": 50,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Armour of Khorne",
+        "points": 40,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Axe of Khorne*",
+        "points": 35,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": false
+      },
+      {
+        "name": "Armour of Khorne {renegade}",
+        "points": 25,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Axe of Khorne* {renegade}",
+        "points": 25,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": false
+      },
+      {
+        "name": "Might of Khorne",
+        "points": 25,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Collar of Khorne*",
+        "points": 25,
+        "type": "daemonic-gift-khorne",
+        "onePerArmy": false
+      }
+    ],
+    "daemonic-icons-khorne": [
+      {
+        "name": "Skull Totem",
+        "points": 50,
+        "type": "daemonic-icon-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Skull Totem {renegade}",
+        "points": 50,
+        "type": "daemonic-icon-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Great Standard of Sundering",
+        "points": 45,
+        "type": "daemonic-icon-khorne",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Endless War",
+        "points": 30,
+        "type": "daemonic-icon-khorne",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-gifts-nurgle": [
+      {
+        "name": "Nurgling Infestation",
+        "points": 45,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sloppity Bilepiper",
+        "points": 35,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spoilpox Scrivener",
+        "points": 30,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Trappings of Nurgle",
+        "points": 30,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Trappings of Nurgle {renegade}",
+        "points": 25,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Stream of Contagion*",
+        "points": 25,
+        "type": "daemonic-gift-nurgle",
+        "onePerArmy": false
+      }
+    ],
+    "daemonic-icons-nurgle": [
+      {
+        "name": "Icon of Eternal Virulence",
+        "points": 50,
+        "type": "daemonic-icon-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Seeping Decay",
+        "points": 35,
+        "type": "daemonic-icon-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rotten Icon",
+        "points": 10,
+        "type": "daemonic-icon-nurgle",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rotten Icon {renegade}",
+        "points": 15,
+        "type": "daemonic-icon-nurgle",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-gifts-slaanesh": [
+      {
+        "name": "Infernal Enrapturess",
+        "points": 50,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Allure of Slaanesh",
+        "points": 35,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Siren Song",
+        "points": 30,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Siren Song {renegade}",
+        "points": 30,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Soporific Musk*",
+        "points": 30,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": false
+      },
+      {
+        "name": "Enrapturing Gaze*",
+        "points": 20,
+        "type": "daemonic-gift-slaanesh",
+        "onePerArmy": false
+      }
+    ],
+    "daemonic-icons-slaanesh": [
+      {
+        "name": "Banner of Acquiescence",
+        "points": 55,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Acquiescence",
+        "points": 50,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Rapturous Standard",
+        "points": 35,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of the Eternal Dance",
+        "points": 25,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Siren Standard",
+        "points": 25,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      },
+      {
+        "name": "Siren Standard",
+        "points": 15,
+        "type": "daemonic-icon-slaanesh",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-gifts-tzeentch": [
+      {
+        "name": "Staff of Change",
+        "points": 65,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Will of Tzeentch",
+        "points": 55,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Will of Tzeentch",
+        "points": 35,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Power Vortex",
+        "points": 35,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Iridescent Corona*",
+        "points": 30,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": false
+      },
+      {
+        "name": "Iridescent Corona* {renegade}",
+        "points": 30,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": false
+      },
+      {
+        "name": "Twin Heads",
+        "points": 20,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Twin Heads {renegade}",
+        "points": 30,
+        "type": "daemonic-gift-tzeentch",
+        "onePerArmy": true
+      }
+    ],
+    "daemonic-icons-tzeentch": [
+      {
+        "name": "Banner of Discord",
+        "points": 60,
+        "type": "daemonic-icon-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Discord",
+        "points": 50,
+        "type": "daemonic-icon-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of Change",
+        "points": 45,
+        "type": "daemonic-icon-tzeentch",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Sorcery*",
+        "points": 35,
+        "type": "daemonic-icon-tzeentch",
+        "onePerArmy": false
+      },
+      {
+        "name": "Icon of Sorcery* {renegade}",
+        "points": 20,
+        "type": "daemonic-icon-tzeentch",
+        "onePerArmy": false
+      }
+    ],
+    "vampiric-powers": [
+      {
+        "name": "Curse of the Revenant",
+        "points": 50,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Beguile",
+        "points": 40,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Supernatural Horror",
+        "points": 20,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Lord of the Night",
+        "points": 15,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Master of the Black Arts",
+        "points": 30,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dark Acolyte {renegade}",
+        "points": 30,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      },
+      {
+        "name": "Flying Horror",
+        "points": 35,
+        "type": "vampiric-power",
+        "onePerArmy": true
+      }
+    ],
+    "forbidden-poisons": [
+      {
+        "name": "Black Lotus",
+        "points": 5,
+        "type": "forbidden-poison",
+        "onePerArmy": false
+      },
+      {
+        "name": "Dark Venom",
+        "points": 15,
+        "type": "forbidden-poison",
+        "onePerArmy": false
+      },
+      {
+        "name": "Manbane",
+        "points": 15,
+        "type": "forbidden-poison",
+        "onePerArmy": false
+      }
+    ],
+    "gifts-of-khaine": [
+      {
+        "name": "Cry of War",
+        "points": 15,
+        "type": "gift-of-khaine",
+        "onePerArmy": false
+      },
+      {
+        "name": "Rune of Khaine",
+        "points": 10,
+        "type": "gift-of-khaine",
+        "onePerArmy": false
+      },
+      {
+        "name": "Witchbrew",
+        "points": 20,
+        "type": "gift-of-khaine",
+        "onePerArmy": false
+      }
+    ],
+    "kindreds": [
+      {
+        "name": "Aspect of the Hound",
+        "points": 20,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Aspect of the Bear",
+        "points": 15,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Aspect of the Boar",
+        "points": 10,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Aspect of the Cat",
+        "points": 10,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Glamour Weave Kindred",
+        "points": 25,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Eternal Kindred",
+        "points": 20,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Wild Rider Kindred",
+        "points": 20,
+        "type": "kindred",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scout Kindred",
+        "points": 15,
+        "type": "kindred",
+        "onePerArmy": false
+      }
+    ],
+    "grand-cathay": [
+      {
+        "name": "The Monkey King's Wisdom",
+        "points": 75,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jade Blade of the Great Fleet",
+        "points": 70,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Sword of Reason",
+        "points": 65,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Brazen Blade",
+        "points": 50,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Wrath of Xen Yang",
+        "points": 45,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Sword of Nan-Gau",
+        "points": 35,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spirit Longma Spear",
+        "points": 25,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sun & Moon Blades",
+        "points": 20,
+        "type": "weapon",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Armour of the Warbird",
+        "points": 45,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Jade Armour of Beichai",
+        "points": 40,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Mantle of Heaven",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Shield of Nan-Gau",
+        "points": 20,
+        "type": "armor",
+        "onePerArmy": true
+      },
+      {
+        "name": "Crystal of Kunlan",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Sigil of Smoke & Powder",
+        "points": 35,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Vermilion Quills*",
+        "points": 25,
+        "type": "talisman",
+        "onePerArmy": false
+      },
+      {
+        "name": "Crown of Jade",
+        "points": 20,
+        "type": "talisman",
+        "onePerArmy": true
+      },
+      {
+        "name": "Standard of Wei-Jin",
+        "points": 60,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Dragon's Wrath",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Icon of Heavenly Fury",
+        "points": 45,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Jade Banner",
+        "points": 40,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Dragon's Eye Banner",
+        "points": 30,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Shroud of Shiyama",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Banner of the Bastion",
+        "points": 25,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Banner of Xen Wun",
+        "points": 15,
+        "type": "banner",
+        "onePerArmy": true
+      },
+      {
+        "name": "Maw Shard",
+        "points": 50,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Alchemist's Mask",
+        "points": 35,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Ring of Jet",
+        "points": 30,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Spirit Lantern*",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Golden Lion",
+        "points": 25,
+        "type": "enchanted-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "The Fires of Nan-Gau*",
+        "points": 20,
+        "type": "enchanted-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Cloak of Po Mei",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Clockwork Compass",
+        "points": 50,
+        "type": "arcane-item",
+        "onePerArmy": true
+      },
+      {
+        "name": "Guardian Feng Shi Bo*",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Seal of Xing Po*",
+        "points": 35,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Learned Feng Shi Bo*",
+        "points": 15,
+        "type": "arcane-item",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scrolls of Wei-jin",
+        "points": 10,
+        "type": "arcane-item",
+        "onePerArmy": true
+      }
+    ],
+    "incantation-scrolls": [
+      {
+        "name": "Scroll of Withering",
+        "points": 50,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of Summoning",
+        "points": 45,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of Awakening",
+        "points": 40,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of the Outcast Dead",
+        "points": 35,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of Urgency",
+        "points": 30,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      },
+      {
+        "name": "Scroll of Righteous Smiting",
+        "points": 10,
+        "type": "incantation-scroll",
+        "onePerArmy": false
+      }
+    ]
+  }
+}

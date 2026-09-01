@@ -1,0 +1,76 @@
+{
+  "factions": [
+    {
+      "id": "beastmen-brayherds",
+      "label": "Beastmen Brayherds"
+    },
+    {
+      "id": "chaos-dwarfs",
+      "label": "Chaos Dwarfs"
+    },
+    {
+      "id": "daemons-of-chaos",
+      "label": "Daemons of Chaos"
+    },
+    {
+      "id": "dark-elves",
+      "label": "Dark Elves"
+    },
+    {
+      "id": "dwarfen-mountain-holds",
+      "label": "Dwarfen Mountain Holds"
+    },
+    {
+      "id": "empire-of-man",
+      "label": "Empire of Man"
+    },
+    {
+      "id": "grand-cathay",
+      "label": "Grand Cathay"
+    },
+    {
+      "id": "high-elf-realms",
+      "label": "High Elf Realms"
+    },
+    {
+      "id": "kingdom-of-bretonnia",
+      "label": "Kingdom of Bretonnia"
+    },
+    {
+      "id": "lizardmen",
+      "label": "Lizardmen"
+    },
+    {
+      "id": "ogre-kingdoms",
+      "label": "Ogre Kingdoms"
+    },
+    {
+      "id": "orc-and-goblin-tribes",
+      "label": "Orc & Goblin Tribes"
+    },
+    {
+      "id": "renegade-crowns",
+      "label": "Renegade Crowns"
+    },
+    {
+      "id": "skaven",
+      "label": "Skaven"
+    },
+    {
+      "id": "tomb-kings-of-khemri",
+      "label": "Tomb Kings of Khemri"
+    },
+    {
+      "id": "vampire-counts",
+      "label": "Vampire Counts"
+    },
+    {
+      "id": "warriors-of-chaos",
+      "label": "Warriors of Chaos"
+    },
+    {
+      "id": "wood-elf-realms",
+      "label": "Wood Elf Realms"
+    }
+  ]
+}
