@@ -534,15 +534,21 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Warpaint",
+          "points": 5,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
         },
         {
-          "name": "Warpaint",
-          "points": 5,
-          "perModel": true,
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
           "default": false
         }
       ],
@@ -564,7 +570,14 @@
         "Lore of Gork",
         "Mob Rule",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "orc-weirdboy",
@@ -615,15 +628,21 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Warpaint",
+          "points": 5,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
         },
         {
-          "name": "Warpaint",
-          "points": 5,
-          "perModel": true,
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
           "default": false
         }
       ],
@@ -645,7 +664,14 @@
         "Lore of Gork",
         "Mob Rule",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "goblin-warboss",
@@ -915,10 +941,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -937,7 +969,13 @@
         "Fear of Elves",
         "Lore of Mork",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "goblin-oddgit",
@@ -987,10 +1025,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1009,7 +1053,13 @@
         "Fear of Elves",
         "Lore of Mork",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "night-goblin-warboss",
@@ -1237,10 +1287,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1260,7 +1316,13 @@
         "Hatred (Dwarfs)",
         "Lore of Mork",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "illusion",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "night-goblin-oddgit",
@@ -1298,10 +1360,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1321,7 +1389,13 @@
         "Hatred (Dwarfs)",
         "Lore of Mork",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "illusion",
+        "waaagh-magic",
+        "troll-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "kiknik-toofsnatcha",
@@ -1424,7 +1498,12 @@
         "Protect Da Boss",
         "Syphoned Strength",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "troll-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "troll-hag",
@@ -1462,10 +1541,16 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 35,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1495,12 +1580,17 @@
         "Terror",
         "Timmm-berrr!",
         "Unbreakable"
-      ]
+      ],
+      "lores": [
+        "troll-magic",
+        "battle-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "common-troll-mob",
       "name": "Common Troll Mob",
-      "category": "Special",
+      "category": "Core",
       "points": 39,
       "perModel": null,
       "minSize": 1,
@@ -1552,7 +1642,7 @@
     {
       "id": "river-troll-mob",
       "name": "River Troll Mob",
-      "category": "Special",
+      "category": "Core",
       "points": 47,
       "perModel": null,
       "minSize": 1,
@@ -1604,7 +1694,7 @@
     {
       "id": "stone-troll-mob",
       "name": "Stone Troll Mob",
-      "category": "Special",
+      "category": "Core",
       "points": 43,
       "perModel": null,
       "minSize": 1,
@@ -2749,6 +2839,164 @@
         "Impetuous",
         "Tusker Charge",
         "Warband"
+      ]
+    },
+    {
+      "id": "common-troll-mob-special",
+      "name": "Common Troll Mob",
+      "category": "Special",
+      "points": 39,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Troll vomit",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Additional hand weapons",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Great weapons",
+          "points": 4,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Regeneration (5+)",
+        "Stupidity",
+        "Motley Crew"
+      ]
+    },
+    {
+      "id": "river-troll-mob-special",
+      "name": "River Troll Mob",
+      "category": "Special",
+      "points": 47,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Troll vomit",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Additional hand weapons",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Great weapons",
+          "points": 4,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Regeneration (5+)",
+        "Stupidity",
+        "Motley Crew"
+      ]
+    },
+    {
+      "id": "stone-troll-mob-special",
+      "name": "Stone Troll Mob",
+      "category": "Special",
+      "points": 43,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Troll vomit",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Additional hand weapons",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Great weapons",
+          "points": 4,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Armoured Hide (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Magic Resistance (-1)",
+        "Regeneration (5+)",
+        "Stupidity",
+        "Motley Crew"
       ]
     },
     {

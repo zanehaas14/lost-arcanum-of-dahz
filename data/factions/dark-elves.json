@@ -391,10 +391,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -417,7 +423,15 @@
         "Hekarti's Blessing",
         "Lore of Naggaroth {renegade}",
         "Murderous {renegade}"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "sorceress",
@@ -473,10 +487,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -499,7 +519,15 @@
         "Hekarti's Blessing",
         "Lore of Naggaroth {renegade}",
         "Murderous {renegade}"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "high-beastmaster",
@@ -1699,7 +1727,12 @@
         "Open Order",
         "Poisoned Attacks (Doomfire Warlocks and Master only)",
         "Swiftstride"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "daemonology"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "reaper-bolt-throwers",

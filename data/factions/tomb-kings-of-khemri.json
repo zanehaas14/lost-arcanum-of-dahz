@@ -150,6 +150,9 @@
         "My Will Be Done",
         "Nehekharan Undead",
         "Regeneration (5+)"
+      ],
+      "lores": [
+        "necromancy"
       ]
     },
     {
@@ -287,6 +290,9 @@
         "My Will Be Done",
         "Nehekharan Undead",
         "Regeneration (5+)"
+      ],
+      "lores": [
+        "necromancy"
       ]
     },
     {
@@ -476,10 +482,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -511,7 +523,13 @@
         "Nehekharan Undead",
         "Regeneration (5+)",
         "From Beneath the Sands"
-      ]
+      ],
+      "lores": [
+        "elementalism",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "mortuary-priest",
@@ -573,10 +591,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -608,7 +632,13 @@
         "Nehekharan Undead",
         "Regeneration (5+)",
         "From Beneath the Sands"
-      ]
+      ],
+      "lores": [
+        "elementalism",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "arch-necrotect",
@@ -799,7 +829,11 @@
         "Regeneration (5+)",
         "Settra Does Not Kneel!",
         "Settra the Great"
-      ]
+      ],
+      "lores": [
+        "necromancy"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "prince-apophas-the-cursed-scarab-lord",
@@ -1275,7 +1309,7 @@
     {
       "id": "tomb-swarms",
       "name": "Tomb Swarms",
-      "category": "Special",
+      "category": "Core",
       "points": 74,
       "perModel": 37,
       "minSize": 2,
@@ -1617,7 +1651,7 @@
     {
       "id": "necroserpents",
       "name": "Necroserpents",
-      "category": "Special",
+      "category": "Core",
       "points": 76,
       "perModel": 38,
       "minSize": 2,
@@ -1713,6 +1747,57 @@
     {
       "id": "ushabti",
       "name": "Ushabti",
+      "category": "Core",
+      "points": 147,
+      "perModel": 49,
+      "minSize": 3,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Ancient (champion)",
+          "points": 7,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapons, Ritual blades",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Hand weapons, Greatbows",
+          "points": 0,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Arrows of Asaph",
+        "Close Order",
+        "Indomitable (1)",
+        "Khopesh",
+        "Nehekharan Undead",
+        "Regeneration (6+)"
+      ]
+    },
+    {
+      "id": "ushabti-special",
+      "name": "Ushabti",
       "category": "Special",
       "points": 147,
       "perModel": 49,
@@ -1804,6 +1889,43 @@
         "Magic Resistance (-2)",
         "Nehekharan Undead",
         "Regeneration (6+)"
+      ]
+    },
+    {
+      "id": "tomb-swarms-special",
+      "name": "Tomb Swarms",
+      "category": "Special",
+      "points": 74,
+      "perModel": 37,
+      "minSize": 2,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons (Venomous bites and stings)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Ambushers",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Dry as Dust",
+        "Nehekharan Undead",
+        "Poisoned Attacks",
+        "Regeneration (6+)",
+        "Skirmishers"
       ]
     },
     {
@@ -1985,6 +2107,48 @@
         "Nehekharan Undead",
         "Regeneration (6+)",
         "Regimental Unit"
+      ]
+    },
+    {
+      "id": "necroserpents-special",
+      "name": "Necroserpents",
+      "category": "Special",
+      "points": 76,
+      "perModel": 38,
+      "minSize": 2,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Lashing tails and venomous fangs (Hand weapons)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "The Terrors Below",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Ambushers",
+        "Armoured Hide (1)",
+        "Impact Hits (1)",
+        "Indomitable (1)",
+        "Move Through Cover",
+        "Nehekharan Undead",
+        "Open Order",
+        "Poisoned Attacks",
+        "Regeneration (6+)",
+        "Swiftstride"
       ]
     },
     {

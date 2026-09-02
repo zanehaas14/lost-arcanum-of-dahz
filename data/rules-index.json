@@ -92,7 +92,6 @@
     "the arrow of kurnous": {
       "page": "FoF, p. 120",
       "url": "https://tow.whfb.app/special-rules/the-arrow-of-kurnous",
-      "desc": "",
       "homebrew": false
     },
     "chracian pride": {
@@ -258,7 +257,6 @@
     "troubadour of loec": {
       "page": "",
       "url": "https://tow.whfb.app/special-rules/troubadour-of-loec",
-      "desc": "",
       "homebrew": false
     },
     "the spirit of kurnous": {
@@ -444,7 +442,6 @@
     "hawk-eyed archer": {
       "page": "FoF, p. 123",
       "url": "https://tow.whfb.app/special-rules/hawk-eyed-archer",
-      "desc": "",
       "homebrew": false
     },
     "phalanx": {
@@ -622,7 +619,6 @@
     "martial prowess": {
       "page": "DE, p. 25, FoF, p. 129 & 185, AJ:WER, p. 39",
       "url": "https://tow.whfb.app/special-rules/martial-prowess",
-      "desc": "",
       "homebrew": false
     },
     "tower shields": {
@@ -764,7 +760,6 @@
     "guardians of the wildwood": {
       "page": "FoF, p. 130",
       "url": "https://tow.whfb.app/special-rules/guardians-of-the-wildwood",
-      "desc": "",
       "homebrew": false
     },
     "the crusader's vow": {
@@ -890,7 +885,6 @@
     "dances of loec": {
       "page": "FoF, p. 131",
       "url": "https://tow.whfb.app/special-rules/dances-of-loec",
-      "desc": "",
       "homebrew": false
     },
     "slayer of daemons": {
@@ -1036,7 +1030,6 @@
     "daughters of eternity": {
       "page": "FoF, p. 135",
       "url": "https://tow.whfb.app/special-rules/daughters-of-eternity",
-      "desc": "",
       "homebrew": false
     },
     "slayer of dragons": {
@@ -1049,7 +1042,8 @@
     },
     "spectral hounds": {
       "page": "AJ:WER, p. 34",
-      "url": "https://tow.whfb.app/special-rules/spectral-hounds"
+      "url": "https://tow.whfb.app/special-rules/spectral-hounds",
+      "homebrew": false
     },
     "plague proboscis": {
       "page": "DoC, p. 12",
@@ -1062,13 +1056,11 @@
     "deepwood coven": {
       "page": "FoF, p. 135",
       "url": "https://tow.whfb.app/special-rules/deepwood-coven",
-      "desc": "",
       "homebrew": false
     },
     "boldest of the bold": {
       "page": "AJ:WER, p. 37",
       "url": "https://tow.whfb.app/special-rules/boldest-of-the-bold",
-      "desc": "",
       "homebrew": false
     },
     "dispersed formation": {
@@ -1117,7 +1109,8 @@
     },
     "armour bane": {
       "page": "RB, p. 166",
-      "url": "https://tow.whfb.app/special-rules/armour-bane"
+      "url": "https://tow.whfb.app/special-rules/armour-bane",
+      "homebrew": false
     },
     "future sight": {
       "page": "AJ:BB, p. 35",
@@ -1218,12 +1211,12 @@
     "favour of the goddess": {
       "page": "AJ:WER, p. 37",
       "url": "https://tow.whfb.app/special-rules/favour-of-the-goddess",
-      "desc": "",
       "homebrew": false
     },
     "armoured hide": {
       "page": "RB, p. 166",
-      "url": "https://tow.whfb.app/special-rules/armoured-hide"
+      "url": "https://tow.whfb.app/special-rules/armoured-hide",
+      "homebrew": false
     },
     "swallow whole": {
       "page": "RH, p. 110",
@@ -1264,7 +1257,6 @@
     "elven reflexes": {
       "page": "DE, p. 25, FoF, p. 145 & 185",
       "url": "https://tow.whfb.app/special-rules/elven-reflexes",
-      "desc": "",
       "homebrew": false
     },
     "daemonic": {
@@ -1314,7 +1306,6 @@
     "skaryn the eye thief": {
       "page": "AJ:WER, p. 37",
       "url": "https://tow.whfb.app/special-rules/skaryn-the-eye-thief",
-      "desc": "",
       "homebrew": false
     },
     "father of beasts": {
@@ -1380,7 +1371,6 @@
     "talismanic tattoos": {
       "page": "FoF, p. 145",
       "url": "https://tow.whfb.app/special-rules/talismanic-tattoos",
-      "desc": "",
       "homebrew": false
     },
     "finest warhorses": {
@@ -1446,13 +1436,11 @@
     "courage beyond compare": {
       "page": "AJ:WER, p. 38",
       "url": "https://tow.whfb.app/special-rules/courage-beyond-compare",
-      "desc": "",
       "homebrew": false
     },
     "tree spirit": {
       "page": "FoF, p. 145",
       "url": "https://tow.whfb.app/special-rules/tree-spirit",
-      "desc": "",
       "homebrew": false
     },
     "chariot runners": {
@@ -1518,7 +1506,6 @@
     "close order": {
       "page": "RB, p. 167",
       "url": "https://tow.whfb.app/special-rules/close-order",
-      "desc": "",
       "homebrew": false
     },
     "sea dragon cloak": {
@@ -1592,7 +1579,6 @@
     "tree whack": {
       "page": "FoF, p. 145",
       "url": "https://tow.whfb.app/special-rules/tree-whack",
-      "desc": "",
       "homebrew": false
     },
     "ensorcelled weapons": {
@@ -1654,7 +1640,6 @@
     "counter charge": {
       "page": "RB, p. 167",
       "url": "https://tow.whfb.app/special-rules/counter-charge",
-      "desc": "",
       "homebrew": false
     },
     "solar radiance": {
@@ -1704,7 +1689,6 @@
     "run with the pack": {
       "page": "AJ:WER, p. 40",
       "url": "https://tow.whfb.app/special-rules/run-with-the-pack",
-      "desc": "",
       "homebrew": false
     },
     "arrows of isha": {
@@ -1914,7 +1898,6 @@
     "razor tusks": {
       "page": "RH, p. 116, AJ:WER, p. 41",
       "url": "https://tow.whfb.app/special-rules/razor-tusks",
-      "desc": "",
       "homebrew": false
     },
     "two heads": {
@@ -2000,7 +1983,6 @@
     "cleaving blow": {
       "page": "DoC, p. 32, DE, p. 25, FoF, p. 164, LM, p. 20, RH, p. 153, VC, p. 27, AJ:HER, p. 44, AJ:WER, p. 41",
       "url": "https://tow.whfb.app/special-rules/cleaving-blow",
-      "desc": "",
       "homebrew": false
     },
     "daemon of tzeentch": {
@@ -2042,7 +2024,6 @@
     "drilled": {
       "page": "RB, p. 167",
       "url": "https://tow.whfb.app/special-rules/drilled",
-      "desc": "",
       "homebrew": false
     },
     "the lance in combat": {
@@ -2116,7 +2097,6 @@
     "evasive": {
       "page": "RB, p. 168",
       "url": "https://tow.whfb.app/special-rules/evasive",
-      "desc": "",
       "homebrew": false
     },
     "cold blooded": {
@@ -2262,7 +2242,6 @@
     "fast cavalry": {
       "page": "RB, p. 168",
       "url": "https://tow.whfb.app/special-rules/fast-cavalry",
-      "desc": "",
       "homebrew": false
     },
     "characters joining a lance": {
@@ -2300,7 +2279,6 @@
     "fear": {
       "page": "RB, p. 168",
       "url": "https://tow.whfb.app/special-rules/fear",
-      "desc": "",
       "homebrew": false
     },
     "thunderous impact": {
@@ -2326,7 +2304,6 @@
     "feigned flight": {
       "page": "RB, p. 168",
       "url": "https://tow.whfb.app/special-rules/feigned-flight",
-      "desc": "",
       "homebrew": false
     },
     "nehekharan undead": {
@@ -2368,7 +2345,6 @@
     "fire & flee": {
       "page": "RB, p. 169",
       "url": "https://tow.whfb.app/special-rules/fire-and-flee",
-      "desc": "",
       "homebrew": false
     },
     "the shadow grows": {
@@ -2414,12 +2390,12 @@
     "flammable": {
       "page": "RB, p. 169",
       "url": "https://tow.whfb.app/special-rules/flammable",
-      "desc": "",
       "homebrew": false
     },
     "fly": {
       "page": "RB, p. 170",
-      "url": "https://tow.whfb.app/special-rules/fly"
+      "url": "https://tow.whfb.app/special-rules/fly",
+      "homebrew": false
     },
     "the elemental winds": {
       "page": "AJ:AoGC, p. 45, AJ:TBotGB, p. 48",
@@ -2432,7 +2408,6 @@
     "frenzy": {
       "page": "RB, p. 170",
       "url": "https://tow.whfb.app/special-rules/frenzy",
-      "desc": "",
       "homebrew": false
     },
     "relentless warriors": {
@@ -2442,7 +2417,6 @@
     "furious charge": {
       "page": "RB, p. 171",
       "url": "https://tow.whfb.app/special-rules/furious-charge",
-      "desc": "",
       "homebrew": false
     },
     "warped form": {
@@ -2488,7 +2462,6 @@
     "ignores cover": {
       "page": "RB, p. 171",
       "url": "https://tow.whfb.app/special-rules/ignores-cover",
-      "desc": "",
       "homebrew": false
     },
     "gigantic spawn of slaanesh": {
@@ -2498,7 +2471,6 @@
     "immune to psychology": {
       "page": "RB, p. 171",
       "url": "https://tow.whfb.app/special-rules/immune-to-psychology",
-      "desc": "",
       "homebrew": false
     },
     "gigantic spawn of tzeentch": {
@@ -2520,7 +2492,6 @@
     "large target": {
       "page": "RB, p. 172",
       "url": "https://tow.whfb.app/special-rules/large-target",
-      "desc": "",
       "homebrew": false
     },
     "levies": {
@@ -2530,18 +2501,17 @@
     "loner": {
       "page": "RB, p. 172",
       "url": "https://tow.whfb.app/special-rules/loner",
-      "desc": "",
       "homebrew": false
     },
     "magical attacks": {
       "page": "RB, p. 172",
       "url": "https://tow.whfb.app/special-rules/magical-attacks",
-      "desc": "",
       "homebrew": false
     },
     "magic resistance": {
       "page": "RB, p. 173",
-      "url": "https://tow.whfb.app/special-rules/magic-resistance"
+      "url": "https://tow.whfb.app/special-rules/magic-resistance",
+      "homebrew": false
     },
     "mercenaries": {
       "page": "RB, p. 173",
@@ -2558,7 +2528,6 @@
     "motley crew": {
       "page": "RB, p. 174",
       "url": "https://tow.whfb.app/special-rules/motley-crew",
-      "desc": "",
       "homebrew": false
     },
     "move & shoot": {
@@ -2572,7 +2541,6 @@
     "move through cover": {
       "page": "RB, p. 174",
       "url": "https://tow.whfb.app/special-rules/move-through-cover",
-      "desc": "",
       "homebrew": false
     },
     "multiple shots": {
@@ -2586,13 +2554,11 @@
     "open order": {
       "page": "RB, p. 175",
       "url": "https://tow.whfb.app/special-rules/open-order",
-      "desc": "",
       "homebrew": false
     },
     "poisoned attacks": {
       "page": "RB, p. 175",
       "url": "https://tow.whfb.app/special-rules/poisoned-attacks",
-      "desc": "",
       "homebrew": false
     },
     "ponderous": {
@@ -2606,7 +2572,6 @@
     "rallying cry": {
       "page": "RB, p. 175",
       "url": "https://tow.whfb.app/special-rules/rallying-cry",
-      "desc": "",
       "homebrew": false
     },
     "random attacks": {
@@ -2619,7 +2584,8 @@
     },
     "regeneration": {
       "page": "RB, p. 176",
-      "url": "https://tow.whfb.app/special-rules/regeneration"
+      "url": "https://tow.whfb.app/special-rules/regeneration",
+      "homebrew": false
     },
     "regimental unit": {
       "page": "RB, p. 176",
@@ -2636,7 +2602,6 @@
     "scouts": {
       "page": "RB, p. 177",
       "url": "https://tow.whfb.app/special-rules/scouts",
-      "desc": "",
       "homebrew": false
     },
     "shieldwall": {
@@ -2646,17 +2611,16 @@
     "skirmishers": {
       "page": "RB, p. 177",
       "url": "https://tow.whfb.app/special-rules/skirmishers",
-      "desc": "",
       "homebrew": false
     },
     "stomp attacks": {
       "page": "RB, p. 177",
-      "url": "https://tow.whfb.app/special-rules/stomp-attacks"
+      "url": "https://tow.whfb.app/special-rules/stomp-attacks",
+      "homebrew": false
     },
     "strike first": {
       "page": "RB, p. 177",
       "url": "https://tow.whfb.app/special-rules/strike-first",
-      "desc": "",
       "homebrew": false
     },
     "strike last": {
@@ -2666,7 +2630,6 @@
     "stubborn": {
       "page": "RB, p. 178",
       "url": "https://tow.whfb.app/special-rules/stubborn",
-      "desc": "",
       "homebrew": false
     },
     "stupidity": {
@@ -2676,25 +2639,21 @@
     "swiftstride": {
       "page": "RB, p. 178",
       "url": "https://tow.whfb.app/special-rules/swiftstride",
-      "desc": "",
       "homebrew": false
     },
     "terror": {
       "page": "RB, p. 179",
       "url": "https://tow.whfb.app/special-rules/terror",
-      "desc": "",
       "homebrew": false
     },
     "timmm-berrr!": {
       "page": "RB, p. 179",
       "url": "https://tow.whfb.app/special-rules/timmm-berrr",
-      "desc": "",
       "homebrew": false
     },
     "unbreakable": {
       "page": "RB, p. 179",
       "url": "https://tow.whfb.app/special-rules/unbreakable",
-      "desc": "",
       "homebrew": false
     },
     "unstable": {
@@ -2708,7 +2667,6 @@
     "veteran": {
       "page": "RB, p. 180",
       "url": "https://tow.whfb.app/special-rules/veteran",
-      "desc": "",
       "homebrew": false
     },
     "volley fire": {
@@ -2718,7 +2676,6 @@
     "warband": {
       "page": "RB, p. 180",
       "url": "https://tow.whfb.app/special-rules/warband",
-      "desc": "",
       "homebrew": false
     },
     "warp-spawned": {
@@ -3832,7 +3789,6 @@
     "lore of athel loren": {
       "page": "FoF, p. 146",
       "url": "https://tow.whfb.app/the-lores-of-magic/lore-of-athel-loren",
-      "desc": "",
       "homebrew": false
     },
     "lore of naggaroth": {
@@ -9827,100 +9783,10 @@
       "page": "RB, p. 325",
       "url": "https://tow.whfb.app/spell/word-of-pain"
     },
-    "armour bane (1)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "armour bane (2)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "armoured hide (1)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "fly (10)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "furious charge (wild riders & wild hunter only)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
     "hawk-eyed hunters": {
       "page": "Homebrew",
       "url": "",
       "desc": "+1 to wound on shooting attacks when the unit has not moved this turn.",
-      "homebrew": true
-    },
-    "magic resistance (2 - orion)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "magical attacks (hound)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "parry": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "regeneration (5+)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "regeneration (6+)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "spectral hounds (hound)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "stomp attacks (1)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "stomp attacks (d3)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "stomp attacks (d3+2)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
-      "homebrew": true
-    },
-    "strike first (orion)": {
-      "page": "Homebrew",
-      "url": "",
-      "desc": "",
       "homebrew": true
     }
   }

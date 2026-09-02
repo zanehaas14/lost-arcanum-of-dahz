@@ -151,6 +151,11 @@
         "Lore of Undeath {renegade}",
         "Necromantic Undead",
         "Regeneration (5+)"
+      ],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
       ]
     },
     {
@@ -290,6 +295,11 @@
         "Lore of Undeath {renegade}",
         "Necromantic Undead",
         "Regeneration (5+)"
+      ],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
       ]
     },
     {
@@ -352,10 +362,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -378,7 +394,13 @@
         "Lore of Undeath {renegade}",
         "Necromantic Undead",
         "Regeneration (5+)"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "necromantic-acolyte",
@@ -428,10 +450,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -455,7 +483,13 @@
         "Lore of Undeath {renegade}",
         "Necromantic Undead",
         "Regeneration (5+)"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "strigoi-ghoul-king",
@@ -540,6 +574,11 @@
         "Poisoned Attacks",
         "Regeneration (5+)",
         "the Hunger"
+      ],
+      "lores": [
+        "battle-magic",
+        "dark-magic",
+        "necromancy"
       ]
     },
     {

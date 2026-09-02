@@ -59,7 +59,11 @@
         "Swiftstride",
         "Terror",
         "Two-headed Dragon"
-      ]
+      ],
+      "lores": [
+        "dark-magic"
+      ],
+      "wizardLevel": 4
     },
     {
       "id": "daemon-prince",
@@ -137,6 +141,102 @@
           "points": 10,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -170,6 +270,11 @@
         "Unbreakable",
         "Unstable",
         "Warp-spawned"
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
       ]
     },
     {
@@ -297,6 +402,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -411,10 +546,40 @@
           "default": true
         },
         {
-          "name": "Wizard",
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -449,7 +614,14 @@
         "Ensorcelled Weapons",
         "Gaze of the Gods",
         "Lore of Chaos"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic",
+        "shadowlands"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "great-bray-shaman",
@@ -505,10 +677,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -538,7 +716,13 @@
         "Mark of Chaos Undivided",
         "Primal Fury",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "gorebull",
@@ -771,6 +955,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -873,10 +1087,40 @@
           "default": true
         },
         {
-          "name": "Wizard",
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -911,7 +1155,14 @@
         "Ensorcelled Weapons",
         "Gaze of the Gods",
         "Lore of Chaos"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic",
+        "shadowlands"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "aspiring-champion",
@@ -1037,6 +1288,36 @@
           "name": "Ambushers",
           "points": 10,
           "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
           "default": false
         }
       ],
@@ -1168,6 +1449,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1353,6 +1664,36 @@
           "name": "Chaos Rewards",
           "points": 25,
           "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": false,
           "default": false
         }
       ],
@@ -1799,10 +2140,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1832,7 +2179,13 @@
         "Mark of Chaos Undivided",
         "Primal Fury",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "cult-magister",
@@ -1874,7 +2227,7 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
@@ -1897,7 +2250,12 @@
         "Mark of Chaos Undivided",
         "Sacrifice",
         "Thralls of Chaos"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "chaos-warriors",
@@ -1975,6 +2333,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 2,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -2051,6 +2439,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 2,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -2165,6 +2583,54 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "None",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Cult of the Bloodied Hound",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Carrion Crow",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Slithering Serpent",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Fell Raptor",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Close Order",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Skirmishers",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Open Order",
+          "points": 0,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -2283,6 +2749,48 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "None",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Cult of the Bloodied Hound",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Carrion Crow",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Slithering Serpent",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Cult of the Fell Raptor",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Open Order",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Skirmishers",
+          "points": 0,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -2921,6 +3429,36 @@
           "points": 1,
           "perModel": true,
           "default": false
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 2,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -3010,6 +3548,36 @@
           "points": 2,
           "perModel": true,
           "default": false
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 2,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -3064,6 +3632,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 10,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [],
@@ -3570,6 +4168,36 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Mark of Chaos Undivided",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Mark of Khorne",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "points": 2,
+          "perModel": true,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -3953,6 +4581,11 @@
         "Terror",
         "Warpfire Aura",
         "Close Order"
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
       ]
     },
     {

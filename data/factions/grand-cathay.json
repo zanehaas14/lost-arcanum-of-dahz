@@ -66,7 +66,13 @@
         "Stomp Attacks (D6 - Dragon Form)",
         "Swiftstride (Dragon Form)",
         "Terror (Dragon Form)"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic"
+      ],
+      "wizardLevel": 4
     },
     {
       "id": "shugengan-lord",
@@ -129,12 +135,6 @@
       ],
       "options": [
         {
-          "name": "Wizard",
-          "points": 0,
-          "perModel": false,
-          "default": true
-        },
-        {
           "name": "Dragon fire pistol",
           "points": 4,
           "perModel": false,
@@ -149,6 +149,24 @@
         {
           "name": "Lore of Yin",
           "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 60,
           "perModel": false,
           "default": false
         }
@@ -178,7 +196,14 @@
         "Swiftstride",
         "Will of the Dragons",
         "Crown of horns {cathay}"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion",
+        "high-magic"
+      ],
+      "wizardLevel": 2
     },
     {
       "id": "shugengan",
@@ -241,12 +266,6 @@
       ],
       "options": [
         {
-          "name": "Wizard",
-          "points": 0,
-          "perModel": false,
-          "default": true
-        },
-        {
           "name": "Dragon fire pistol",
           "points": 4,
           "perModel": false,
@@ -261,6 +280,18 @@
         {
           "name": "Lore of Yin",
           "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
           "perModel": false,
           "default": false
         }
@@ -290,7 +321,14 @@
         "Swiftstride",
         "Will of the Dragons",
         "Crown of horns {cathay}"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion",
+        "high-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "lord-magistrate",
@@ -425,10 +463,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -447,7 +491,14 @@
         "Magical Attacks",
         "Magic Resistance (-1)",
         "Mastery of the Elemental Winds"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "strategist",
@@ -736,10 +787,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -758,7 +815,14 @@
         "Magical Attacks",
         "Magic Resistance (-1)",
         "Mastery of the Elemental Winds"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "peasant-levy",
@@ -1222,6 +1286,12 @@
           "points": 35,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Gunpowder bombs",
+          "points": 8,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [],
@@ -1260,6 +1330,12 @@
         {
           "name": "Ogre Loader",
           "points": 35,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Gunpowder bombs",
+          "points": 8,
           "perModel": false,
           "default": false
         }

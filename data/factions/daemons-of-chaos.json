@@ -79,6 +79,102 @@
           "points": 10,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 50,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 75,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 100,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -100,6 +196,11 @@
         "Infernal Favour (2)",
         "Lore of Daemons",
         "Stomp Attacks (D3+1)"
+      ],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
       ]
     },
     {
@@ -122,10 +223,34 @@
       ],
       "equipment": [
         {
-          "name": "Hand weapon",
+          "name": "Hand weapon, Lash of Khorne",
+          "points": 15,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Hand weapon, Lash of Khorne",
           "points": 0,
           "perModel": true,
           "default": true
+        },
+        {
+          "name": "Hand weapon, Bloodflail",
+          "points": 20,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Bloodflail",
+          "points": 25,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Great axe",
+          "points": 35,
+          "perModel": true,
+          "default": false
         }
       ],
       "armor": [
@@ -134,28 +259,15 @@
           "points": 0,
           "perModel": true,
           "default": true
-        }
-      ],
-      "options": [
-        {
-          "name": "Bloodflail",
-          "points": 25,
-          "perModel": true,
-          "default": false
         },
         {
-          "name": "Great axe",
-          "points": 35,
+          "name": "Full plate armour (Daemonic flesh)",
+          "points": 0,
           "perModel": true,
-          "default": false
-        },
-        {
-          "name": "Lash of Khorne",
-          "points": 15,
-          "perModel": true,
-          "default": false
+          "default": true
         }
       ],
+      "options": [],
       "magicAllowances": [
         {
           "label": "Daemonic Gifts",
@@ -207,6 +319,12 @@
           "points": 160,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Blood Throne of Khorne {renegade}",
+          "points": 130,
+          "perModel": false,
+          "default": false
         }
       ],
       "command": [
@@ -237,6 +355,12 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Heavy armour (Brazen scales)",
+          "points": 0,
+          "perModel": false,
+          "default": true
         }
       ],
       "options": [],
@@ -251,7 +375,7 @@
         }
       ],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Khorne",
         "Furious Charge",
         "Impetuous",
@@ -306,10 +430,28 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 60,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 90,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -323,7 +465,7 @@
         }
       ],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Nurgle",
         "Infernal Favour (2)",
         "Large Target",
@@ -332,7 +474,90 @@
         "Regeneration (5+)",
         "Stomp Attacks (D3+1)",
         "Terror"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "battle-magic",
+        "dark-magic"
+      ],
+      "wizardLevel": 1
+    },
+    {
+      "id": "great-unclean-one-renegade",
+      "name": "Great Unclean One",
+      "category": "Characters",
+      "points": 360,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "General",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Additional hand weapon",
+          "points": 6,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Bilesword",
+          "points": 10,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Plagueflail",
+          "points": 25,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [
+        {
+          "label": "Daemonic Gifts",
+          "types": [
+            "daemonic-gift-common",
+            "daemonic-gift-nurgle"
+          ],
+          "maxPoints": 100
+        }
+      ],
+      "specialRules": [],
+      "lores": [
+        "daemonology",
+        "battle-magic",
+        "dark-magic"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "daemonic-herald-of-nurgle",
@@ -398,6 +623,18 @@
           "points": 60,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -417,7 +654,13 @@
         "Lore of Daemons {renegade}",
         "Poisoned Attacks",
         "Regeneration (6+)"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "battle-magic"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "keeper-of-secrets",
@@ -439,6 +682,12 @@
       ],
       "equipment": [
         {
+          "name": "Hand weapon, Impaling claws",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
           "name": "Impaling claws",
           "points": 0,
           "perModel": true,
@@ -448,10 +697,28 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 60,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 90,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -465,7 +732,7 @@
         }
       ],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Slaanesh",
         "Infernal Favour (2)",
         "Large Target",
@@ -473,7 +740,13 @@
         "Stomp Attacks (D3)",
         "Swiftstride",
         "Terror"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "daemonology",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "daemonic-herald-of-slaanesh",
@@ -506,6 +779,12 @@
         {
           "name": "Exalted Seeker Chariot of Slaanesh",
           "points": 185,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Exalted Seeker Chariot of Slaanesh",
+          "points": 140,
           "perModel": false,
           "default": false
         }
@@ -545,6 +824,18 @@
           "points": 60,
           "perModel": false,
           "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -558,11 +849,17 @@
         }
       ],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Slaanesh",
         "Infernal Favour (1)",
-        "Lore of Daemons {renegade}"
-      ]
+        "Lore of Daemons"
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "lord-of-change",
@@ -599,10 +896,22 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 2 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 60,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -626,7 +935,82 @@
         "Stomp Attacks (D3)",
         "Swiftstride",
         "Terror"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion"
+      ],
+      "wizardLevel": 2
+    },
+    {
+      "id": "lord-of-change-renegade",
+      "name": "Lord of Change",
+      "category": "Characters",
+      "points": 340,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "General",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon, Great weapon (Staff of Tzeentch)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Tzeentchian Wand",
+          "points": 20,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [
+        {
+          "label": "Daemonic Gifts",
+          "types": [
+            "daemonic-gift-common",
+            "daemonic-gift-tzeentch"
+          ],
+          "maxPoints": 100
+        }
+      ],
+      "specialRules": [],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "daemonic-herald-of-tzeentch",
@@ -647,6 +1031,12 @@
         {
           "name": "Disc of Tzeentch",
           "points": 20,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Disc of Tzeentch",
+          "points": 35,
           "perModel": false,
           "default": false
         },
@@ -688,10 +1078,22 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 60,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -717,7 +1119,15 @@
         "Daemon of Tzeentch",
         "Infernal Favour (1)",
         "Lore of Daemons {renegade}"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "daemonettes-of-slaanesh",
@@ -762,7 +1172,7 @@
       "magicAllowances": [],
       "specialRules": [
         "Close Order",
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemons of Slaanesh"
       ]
     },
@@ -820,6 +1230,59 @@
       ]
     },
     {
+      "id": "seekers-of-slaanesh-core-renegade",
+      "name": "Seekers of Slaanesh",
+      "category": "Core",
+      "points": 95,
+      "perModel": 19,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Heartseeker (champion)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Standard bearer",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Musician",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Piercing claws, Hand weapons (Claws and fangs)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1 - Steed of Slaanesh only)",
+        "Counter Charge",
+        "Daemonic {renegade}",
+        "Daemon of Slaanesh {renegade}",
+        "Fast Cavalry",
+        "Open Order",
+        "Poisoned Attacks (Steed of Slaanesh only)",
+        "Skirmishers",
+        "Swiftstride"
+      ]
+    },
+    {
       "id": "plaguebearers-of-nurgle",
       "name": "Plaguebearers of Nurgle",
       "category": "Special",
@@ -864,6 +1327,55 @@
         "Close Order",
         "Daemonic {renegade}",
         "Daemons of Nurgle",
+        "Poisoned Attacks",
+        "Regeneration (6+)"
+      ]
+    },
+    {
+      "id": "plaguebearers-of-nurgle-renegade",
+      "name": "Plaguebearers of Nurgle",
+      "category": "Core",
+      "points": 60,
+      "perModel": 12,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Plagueridden (champion)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Standard bearer",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Musician",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Plagueswords",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Daemonic {renegade}",
+        "Daemons of Nurgle {renegade}",
         "Poisoned Attacks",
         "Regeneration (6+)"
       ]
@@ -950,6 +1462,62 @@
       ]
     },
     {
+      "id": "bloodletters-of-khorne-renegade",
+      "name": "Bloodletters of Khorne",
+      "category": "Core",
+      "points": 65,
+      "perModel": 13,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Bloodreaper (champion)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Standard bearer",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Musician",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hellblades",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour (Brazen scales)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Daemonic {renegade}",
+        "Daemons of Khorne {renegade}",
+        "Impetuous",
+        "Magic Resistance (-1)"
+      ]
+    },
+    {
       "id": "flesh-hounds-of-khorne-core",
       "name": "Flesh Hounds of Khorne",
       "category": "Core",
@@ -995,11 +1563,55 @@
         "Armour Bane (1)",
         "Close Order",
         "Counter Charge",
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemons of Khorne",
         "Impetuous",
         "Magic Resistance (-2)"
       ]
+    },
+    {
+      "id": "flesh-hounds-of-khorne-core-renegade",
+      "name": "Flesh Hounds of Khorne",
+      "category": "Core",
+      "points": 120,
+      "perModel": 30,
+      "minSize": 4,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons (Claws and fangs), Daemonic talons",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour (Brazen scales)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Ambushers",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Vanguard",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": []
     },
     {
       "id": "pink-horrors-of-tzeentch-core",
@@ -1012,6 +1624,12 @@
       "notes": "",
       "mounts": [],
       "command": [
+        {
+          "name": "Iridescent Horror (champion)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
         {
           "name": "Iridescent Horror (champion)",
           "points": 6,
@@ -1044,7 +1662,7 @@
       "magicAllowances": [],
       "specialRules": [
         "Close Order",
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemons of Tzeentch",
         "Scintillating Sorcery"
       ]
@@ -1108,7 +1726,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemons of Tzeentch",
         "Flaming Attacks",
         "Loner",
@@ -1138,7 +1756,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Fly (8)",
         "Furious Charge",
         "Skirmishers",
@@ -1169,7 +1787,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Fly (8)",
         "Furious Charge",
         "Skirmishers",
@@ -1201,7 +1819,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Fly (8)",
         "Furious Charge",
         "Skirmishers",
@@ -1233,7 +1851,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Fly (8)",
         "Furious Charge",
         "Skirmishers",
@@ -1265,13 +1883,168 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Daemonic {renegade}",
+        "Daemonic",
         "Fly (8)",
         "Furious Charge",
         "Skirmishers",
         "Swiftstride",
         "Vanguard",
         "Daemons of Tzeentch"
+      ]
+    },
+    {
+      "id": "chaos-furies-renegade",
+      "name": "Chaos Furies",
+      "category": "Core",
+      "points": 55,
+      "perModel": 11,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Daemonic talons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Fly (8)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard"
+      ]
+    },
+    {
+      "id": "chaos-furies-of-slaanesh-renegade",
+      "name": "Chaos Furies of Slaanesh",
+      "category": "Core",
+      "points": 65,
+      "perModel": 13,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Daemonic talons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Fly (8)",
+        "Furious Charge",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Daemons of Slaanesh {renegade}"
+      ]
+    },
+    {
+      "id": "chaos-furies-of-nurgle-renegade",
+      "name": "Chaos Furies of Nurgle",
+      "category": "Core",
+      "points": 60,
+      "perModel": 12,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Daemonic talons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Fly (8)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Daemons of Nurgle {renegade}"
+      ]
+    },
+    {
+      "id": "chaos-furies-of-khorne-renegade",
+      "name": "Chaos Furies of Khorne",
+      "category": "Core",
+      "points": 65,
+      "perModel": 13,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Daemonic talons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Fly (8)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Daemons of Khorne {renegade}"
+      ]
+    },
+    {
+      "id": "chaos-furies-of-tzeentch-renegade",
+      "name": "Chaos Furies of Tzeentch",
+      "category": "Core",
+      "points": 60,
+      "perModel": 12,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Daemonic talons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Fly (8)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Daemons of Tzeentch {renegade}"
       ]
     },
     {
@@ -1318,8 +2091,61 @@
       "specialRules": [
         "Armour Bane (1 - Steed of Slaanesh only)",
         "Counter Charge",
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Slaanesh",
+        "Fast Cavalry",
+        "Open Order",
+        "Poisoned Attacks (Steed of Slaanesh only)",
+        "Skirmishers",
+        "Swiftstride"
+      ]
+    },
+    {
+      "id": "seekers-of-slaanesh-renegade",
+      "name": "Seekers of Slaanesh",
+      "category": "Special",
+      "points": 95,
+      "perModel": 19,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Heartseeker (champion)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Standard bearer",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Musician",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Piercing claws, Hand weapons (Claws and fangs)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1 - Steed of Slaanesh only)",
+        "Counter Charge",
+        "Daemonic {renegade}",
+        "Daemon of Slaanesh {renegade}",
         "Fast Cavalry",
         "Open Order",
         "Poisoned Attacks (Steed of Slaanesh only)",
@@ -1353,6 +2179,36 @@
         "Close Order",
         "Daemonic {renegade}",
         "Daemons of Slaanesh",
+        "Soporific Musk",
+        "Swiftstride"
+      ]
+    },
+    {
+      "id": "fiends-of-slaanesh-renegade",
+      "name": "Fiends of Slaanesh",
+      "category": "Special",
+      "points": 92,
+      "perModel": 46,
+      "minSize": 2,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Piercing claws, Venomous tail",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Daemonic {renegade}",
+        "Daemons of Slaanesh {renegade}",
         "Soporific Musk",
         "Swiftstride"
       ]
@@ -1399,6 +2255,49 @@
       ]
     },
     {
+      "id": "seeker-chariot-of-slaanesh-renegade",
+      "name": "Seeker Chariot of Slaanesh",
+      "category": "Special",
+      "points": 85,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Piercing claws, Hand weapons (Claws and fangs)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "5+",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1 - Steed of Slaanesh only)",
+        "Counter Charge",
+        "Daemonic {renegade}",
+        "Daemonic Charge (-1) {renegade}",
+        "Daemon of Slaanesh{renegade}",
+        "First Charge",
+        "Impact Hits (D3+1)",
+        "Open Order",
+        "Poisoned Attacks (Steed of Slaanesh only)",
+        "Swiftstride",
+        "Armour Piercing (1 - Impact Hits only)"
+      ]
+    },
+    {
       "id": "hellflayer-of-slaanesh",
       "name": "Hellflayer of Slaanesh",
       "category": "Rare",
@@ -1426,6 +2325,41 @@
         "Counter Charge",
         "Daemonic {renegade}",
         "Daemon of Slaanesh",
+        "First Charge",
+        "Impact Hits (2D6+1)",
+        "Poisoned Attacks (Steed of Slaanesh only)",
+        "Swiftstride"
+      ]
+    },
+    {
+      "id": "hellflayer-of-slaanesh-renegade",
+      "name": "Hellflayer of Slaanesh",
+      "category": "Rare",
+      "points": 125,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Piercing claws, Hand weapons (Claws and fangs)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (1 - Steed of Slaanesh only)",
+        "Open Order",
+        "Counter Charge",
+        "Daemonic {renegade}",
+        "Daemonic Charge (-1) {renegade}",
+        "Daemon of Slaanesh {renegade}",
         "First Charge",
         "Impact Hits (2D6+1)",
         "Poisoned Attacks (Steed of Slaanesh only)",
@@ -1494,6 +2428,42 @@
       ]
     },
     {
+      "id": "beasts-of-nurgle-renegade",
+      "name": "Beasts of Nurgle",
+      "category": "Special",
+      "points": 62,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Writhing tentacles {daemons of chaos}",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Attention Seeker",
+        "Open Order",
+        "Daemonic {renegade}",
+        "Daemons of Nurgle {renegade}",
+        "Impetuous",
+        "Infernal Favour (1)",
+        "Loner",
+        "Poisoned Attacks",
+        "Random Attacks",
+        "Regeneration (5+)",
+        "Slime Trail"
+      ]
+    },
+    {
       "id": "plague-drones-of-nurgle",
       "name": "Plague Drones of Nurgle",
       "category": "Rare",
@@ -1504,6 +2474,12 @@
       "notes": "",
       "mounts": [],
       "command": [
+        {
+          "name": "Plagueridden (champion)",
+          "points": 7,
+          "perModel": false,
+          "default": false
+        },
         {
           "name": "Plagueridden (champion)",
           "points": 7,
@@ -1534,8 +2510,14 @@
       "armor": [],
       "options": [
         {
-          "name": "Plague Proboscis (+1 Initiative)",
+          "name": "Plague Proboscis",
           "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Plague Proboscis",
+          "points": 1,
           "perModel": true,
           "default": false
         },
@@ -1611,6 +2593,50 @@
       ]
     },
     {
+      "id": "flesh-hounds-of-khorne-renegade",
+      "name": "Flesh Hounds of Khorne",
+      "category": "Special",
+      "points": 120,
+      "perModel": 30,
+      "minSize": 4,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons (Claws and fangs), Daemonic talons",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour (Brazen scales)",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Ambushers",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Vanguard",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": []
+    },
+    {
       "id": "bloodcrushers-of-khorne",
       "name": "Bloodcrushers of Khorne",
       "category": "Rare",
@@ -1668,6 +2694,64 @@
         "Magic Resistance (-1)",
         "Swiftstride",
         "First Charge"
+      ]
+    },
+    {
+      "id": "soul-grinder-khorne-renegade",
+      "name": "Soul Grinder of Khorne",
+      "category": "Special",
+      "points": 240,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Baleful torrent",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Warp gaze",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Phlegm Bombardment",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "armor": [
+        {
+          "name": "Daemonic flesh (counts as full plate)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Daemon of Khorne {renegade}",
+          "points": 10,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Daemonic {renegade}",
+        "Furious Charge",
+        "Large Target",
+        "Reserve Move",
+        "Stomp Attacks (D6+1)",
+        "Terror"
       ]
     },
     {
@@ -1786,6 +2870,36 @@
       ]
     },
     {
+      "id": "screamers-of-tzeentch-renegade",
+      "name": "Screamers of Tzeentch",
+      "category": "Special",
+      "points": 88,
+      "perModel": 44,
+      "minSize": 2,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Lamprey's bite",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Daemons of Tzeentch {renegade}",
+        "Fly (9)",
+        "Skirmishers",
+        "Slashing Attack"
+      ]
+    },
+    {
       "id": "flamers-of-tzeentch",
       "name": "Flamers of Tzeentch",
       "category": "Rare",
@@ -1822,7 +2936,138 @@
         "Lore of Daemons {renegade}",
         "Move Through Cover",
         "Skirmishers"
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "illusion"
       ]
+    },
+    {
+      "id": "flamers-of-tzeentch-renegade",
+      "name": "Flamers of Tzeentch",
+      "category": "Special",
+      "points": 120,
+      "perModel": 40,
+      "minSize": 3,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Pyroclaster (champion)",
+          "points": 7,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Exalted Flamer (champion)",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapons, Warpflame",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Daemonic {renegade}",
+        "Daemons of Tzeentch {renegade}",
+        "Flaming Attacks",
+        "Infernal Favour (1 - Exalted Flamer only)",
+        "Lore of Daemons {renegade}",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ]
+    },
+    {
+      "id": "burning-chariot-of-tzeentch-renegade",
+      "name": "Burning Chariot of Tzeentch",
+      "category": "Rare",
+      "points": 140,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Warpflame, Flames of Tzeentch, Lamprey's bite",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "4+",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Level 1 Wizard (Exalted Flamer)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard (Exalted Flamer)",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard (Exalted Flamer)",
+          "points": 60,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [
+        {
+          "label": "Daemonic Gifts",
+          "types": [
+            "daemonic-gift-common",
+            "daemonic-gift-tzeentch"
+          ],
+          "maxPoints": 50
+        }
+      ],
+      "specialRules": [
+        "Close Order",
+        "Daemonic {renegade}",
+        "Daemon of Tzeentch {renegade}",
+        "Fly (9)",
+        "Impact Hits (D6+1)",
+        "Lore of Daemons {renegade}",
+        "Slashing Attack (Screamers only)"
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "burning-chariot-of-tzeentch",
@@ -1853,10 +3098,22 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard (Exalted Flamer)",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard (Exalted Flamer)",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard (Exalted Flamer)",
+          "points": 60,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1877,7 +3134,14 @@
         "Impact Hits (D6+1)",
         "Lore of Daemons {renegade}",
         "Slashing Attack (Screamers only)"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "soul-grinder",
@@ -1947,6 +3211,82 @@
       "magicAllowances": [],
       "specialRules": [
         "Close Order",
+        "Daemonic",
+        "Furious Charge",
+        "Large Target",
+        "Reserve Move",
+        "Stomp Attacks (D6+1)",
+        "Terror"
+      ]
+    },
+    {
+      "id": "soul-grinder-renegade",
+      "name": "Soul Grinder",
+      "category": "Rare",
+      "points": 240,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Baleful torrent",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Warp gaze",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Iron claw, Harvester cannon, Phlegm Bombardment",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "armor": [
+        {
+          "name": "Daemonic flesh (counts as full plate)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Daemon of Khorne {renegade}",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Daemon of Nurgle {renegade}",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Daemon of Slaanesh {renegade}",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Daemon of Tzeentch {renegade}",
+          "points": 10,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
         "Daemonic {renegade}",
         "Furious Charge",
         "Large Target",
@@ -1968,6 +3308,12 @@
       "command": [],
       "equipment": [
         {
+          "name": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
           "name": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne {renegade}, Hellblades",
           "points": 0,
           "perModel": false,
@@ -1980,6 +3326,12 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "3+",
+          "points": 0,
+          "perModel": false,
+          "default": true
         }
       ],
       "options": [],
@@ -1987,7 +3339,7 @@
       "specialRules": [
         "Brazen Wheels",
         "Close Order",
-        "Daemonic {renegade}",
+        "Daemonic",
         "Daemon of Khorne",
         "First Charge",
         "Impact Hits (D3+1)",

@@ -616,10 +616,16 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -648,7 +654,14 @@
         "Lileath's Blessing",
         "Lore of Saphery",
         "Valour of Ages"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "mage",
@@ -771,10 +784,16 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -803,7 +822,14 @@
         "Lileath's Blessing",
         "Lore of Saphery",
         "Valour of Ages"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "dragon-mage",
@@ -841,10 +867,16 @@
       ],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -875,7 +907,12 @@
         "Swiftstride",
         "Terror",
         "Valour of Ages"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "handmaiden-of-the-everqueen",
@@ -1189,10 +1226,22 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 60,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -1212,7 +1261,13 @@
         "Ithilmar Weapons",
         "Lore of Saphery",
         "Valour of Ages"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "korhil-lionmane",
@@ -1712,9 +1767,9 @@
       ]
     },
     {
-      "id": "sister-of-avelorn",
+      "id": "sister-of-avelorn-core",
       "name": "Sisters of Avelorn",
-      "category": "Rare",
+      "category": "Core",
       "points": 75,
       "perModel": 15,
       "minSize": 5,
@@ -1865,9 +1920,9 @@
       ]
     },
     {
-      "id": "white-lions",
+      "id": "white-lions-core",
       "name": "White Lions of Chrace",
-      "category": "Special",
+      "category": "Core",
       "points": 70,
       "perModel": 14,
       "minSize": 5,
@@ -2207,6 +2262,73 @@
       ]
     },
     {
+      "id": "white-lions",
+      "name": "White Lions of Chrace",
+      "category": "Special",
+      "points": 70,
+      "perModel": 14,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Guardian",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Standard bearer",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Musician",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Chracian great blades",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Veteran (Replaces Valour of Ages)",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Chracian Warriors",
+        "Elven Reflexes",
+        "King's Guard",
+        "Lion Cloak",
+        "Move Through Cover",
+        "Open Order",
+        "Stubborn",
+        "Valour of Ages",
+        "Furious Charge"
+      ]
+    },
+    {
       "id": "shadow-warriors",
       "name": "Shadow Warriors",
       "category": "Special",
@@ -2313,7 +2435,7 @@
     {
       "id": "lion-chariot-of-chrace",
       "name": "Lion Chariot of Chrace",
-      "category": "Rare",
+      "category": "Special",
       "points": 125,
       "perModel": null,
       "minSize": 1,
@@ -2323,7 +2445,7 @@
       "command": [],
       "equipment": [
         {
-          "name": "Hand weapons, Chracian great blades",
+          "name": "Chracian great blades",
           "points": 0,
           "perModel": false,
           "default": true
@@ -2346,7 +2468,7 @@
     {
       "id": "lothern-skycutters",
       "name": "Lothern Skycutter",
-      "category": "Rare",
+      "category": "Special",
       "points": 90,
       "perModel": null,
       "minSize": 1,
@@ -2367,6 +2489,12 @@
         {
           "name": "Eagle-Eye Bolt Thrower",
           "points": 25,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Ambushers",
+          "points": 10,
           "perModel": true,
           "default": false
         }
@@ -2411,6 +2539,100 @@
         "Open Order",
         "Swiftstride",
         "Vanguard"
+      ]
+    },
+    {
+      "id": "sister-of-avelorn",
+      "name": "Sisters of Avelorn",
+      "category": "Rare",
+      "points": 75,
+      "perModel": 15,
+      "minSize": 5,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "High Sister",
+          "points": 7,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapons, Bows of Avelorn",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Stubborn",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Ambushers",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Arrows of Isha",
+        "Evasive",
+        "Ignores Cover",
+        "Immune to Psychology",
+        "Ithilmar Armour",
+        "Ithilmar Weapons",
+        "Open Order",
+        "Skirmishers",
+        "Strike First"
+      ]
+    },
+    {
+      "id": "lion-chariot-of-chrace-rare",
+      "name": "Lion Chariot of Chrace",
+      "category": "Rare",
+      "points": 125,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Chracian great blades",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Fear",
+        "First Charge",
+        "Impact Hits (D6)",
+        "Lion Cloak",
+        "Stubborn",
+        "Valour of Ages"
       ]
     },
     {
@@ -2556,6 +2778,45 @@
       "specialRules": [
         "Elven Reflexes",
         "Skirmishers",
+        "Valour of Ages"
+      ]
+    },
+    {
+      "id": "lothern-skycutters-rare",
+      "name": "Lothern Skycutter",
+      "category": "Rare",
+      "points": 90,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Cavalry spears, Shortbows, Wicked claws (Swiftfeather Roc)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Eagle-Eye Bolt Thrower",
+          "points": 25,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Fear",
+        "Fly (10)",
+        "Elven Reflexes (Sea Guard Crew only)",
+        "Impact Hits (D3+1)",
+        "Swiftstride",
         "Valour of Ages"
       ]
     },

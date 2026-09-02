@@ -381,10 +381,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -403,7 +409,16 @@
       "specialRules": [
         "Magical Attacks",
         "Magic Resistance (-1)"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "master-mage",
@@ -453,10 +468,16 @@
       "armor": [],
       "options": [
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -475,7 +496,16 @@
       "specialRules": [
         "Magical Attacks",
         "Magic Resistance (-1)"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism",
+        "battle-magic",
+        "illusion",
+        "necromancy"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "grand-master",

@@ -20,14 +20,26 @@
           "default": true
         },
         {
+          "name": "Thundertusk",
+          "points": 165,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Thundertusk",
+          "points": 185,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Stonehorn",
           "points": 195,
           "perModel": false,
           "default": false
         },
         {
-          "name": "Thundertusk",
-          "points": 165,
+          "name": "Stonehorn",
+          "points": 195,
           "perModel": false,
           "default": false
         }
@@ -119,13 +131,7 @@
           "maxPoints": 0
         }
       ],
-      "specialRules": [
-        "Armour Bane (1)",
-        "Bull Charge",
-        "Fear",
-        "Impact Hits (2)",
-        "Ogre Charge"
-      ]
+      "specialRules": []
     },
     {
       "id": "bruiser",
@@ -144,14 +150,26 @@
           "default": true
         },
         {
+          "name": "Thundertusk",
+          "points": 165,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Thundertusk",
+          "points": 185,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Stonehorn",
           "points": 195,
           "perModel": false,
           "default": false
         },
         {
-          "name": "Thundertusk",
-          "points": 165,
+          "name": "Stonehorn",
+          "points": 195,
           "perModel": false,
           "default": false
         }
@@ -249,13 +267,7 @@
           "maxPoints": 0
         }
       ],
-      "specialRules": [
-        "Armour Bane (1)",
-        "Bull Charge",
-        "Fear",
-        "Impact Hits (2)",
-        "Ogre Charge"
-      ]
+      "specialRules": []
     },
     {
       "id": "slaughtermaster",
@@ -298,10 +310,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 35,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -329,7 +347,99 @@
         "Impact Hits (2)",
         "Lore of the Great Maw {renegade}",
         "Ogre Charge"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 3
+    },
+    {
+      "id": "slaughtermaster-renegade",
+      "name": "Slaughtermaster",
+      "category": "Characters",
+      "points": 180,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "General",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 4,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Butcher's Cauldron",
+          "points": 30,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [
+        {
+          "label": "Magic Items",
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "weapon",
+            "arcane-item"
+          ],
+          "maxPoints": 100
+        },
+        {
+          "label": "Big Name",
+          "types": [
+            "big-name"
+          ],
+          "maxPoints": 0
+        }
+      ],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Fear",
+        "Impact Hits (2)",
+        "Lore of the Great Maw {renegade}",
+        "Ogre Charge"
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "butcher",
@@ -372,10 +482,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 35,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -403,7 +519,99 @@
         "Impact Hits (2)",
         "Lore of the Great Maw {renegade}",
         "Ogre Charge"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
+    },
+    {
+      "id": "butcher-renegade",
+      "name": "Butcher",
+      "category": "Characters",
+      "points": 95,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "General",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapon",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 4,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Butcher's Cauldron",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [
+        {
+          "label": "Magic Items",
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "weapon",
+            "arcane-item"
+          ],
+          "maxPoints": 50
+        },
+        {
+          "label": "Big Name",
+          "types": [
+            "big-name"
+          ],
+          "maxPoints": 0
+        }
+      ],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Fear",
+        "Impact Hits (2)",
+        "Lore of the Great Maw {renegade}",
+        "Ogre Charge"
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "hunter",
@@ -422,14 +630,32 @@
           "default": true
         },
         {
+          "name": "On foot",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Thundertusk",
+          "points": 165,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Thundertusk",
+          "points": 185,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Stonehorn",
           "points": 195,
           "perModel": false,
           "default": false
         },
         {
-          "name": "Thundertusk",
-          "points": 165,
+          "name": "Stonehorn",
+          "points": 195,
           "perModel": false,
           "default": false
         }
@@ -459,8 +685,26 @@
           "default": false
         },
         {
+          "name": "Great weapon",
+          "points": 5,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Harpoon launcher",
           "points": 10,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Harpoon launcher",
+          "points": 15,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Blood Vulture",
+          "points": 5,
           "perModel": false,
           "default": false
         }
@@ -484,15 +728,7 @@
           "maxPoints": 0
         }
       ],
-      "specialRules": [
-        "Armour Bane (1)",
-        "Fear",
-        "Impact Hits (1)",
-        "Loner",
-        "Move Through Cover",
-        "Ogre Charge",
-        "Running with the Pack {renegade}"
-      ]
+      "specialRules": []
     },
     {
       "id": "firebelly",
@@ -529,10 +765,28 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 35,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -554,7 +808,12 @@
         "Flaming Attacks",
         "Impact Hits (1)",
         "Ogre Charge"
-      ]
+      ],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "ogre-bulls",
@@ -622,13 +881,7 @@
       ],
       "options": [],
       "magicAllowances": [],
-      "specialRules": [
-        "Armour Bane (1)",
-        "Close Order",
-        "Fear",
-        "Impact Hits (1)",
-        "Ogre Charge"
-      ]
+      "specialRules": []
     },
     {
       "id": "ironguts",
@@ -697,12 +950,7 @@
           "maxPoints": 0
         }
       ],
-      "specialRules": [
-        "Close Order",
-        "Fear",
-        "Impact Hits (1)",
-        "Ogre Charge"
-      ]
+      "specialRules": []
     },
     {
       "id": "gnoblar-fighters",
@@ -768,13 +1016,7 @@
       "armor": [],
       "options": [],
       "magicAllowances": [],
-      "specialRules": [
-        "Largely Insignificant",
-        "Move Through Cover",
-        "Scouts",
-        "Skirmishers",
-        "Traps & Snares"
-      ]
+      "specialRules": []
     },
     {
       "id": "sabretusk-packs",
@@ -877,12 +1119,58 @@
         }
       ],
       "magicAllowances": [],
-      "specialRules": [
-        "Close Order",
-        "Fear",
-        "Impact Hits (1)",
-        "Ogre Charge"
-      ]
+      "specialRules": []
+    },
+    {
+      "id": "leadbelchers-renegade",
+      "name": "Leadbelchers {renegade}",
+      "category": "Special",
+      "points": 78,
+      "perModel": 39,
+      "minSize": 2,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Thunderfist (champion)",
+          "points": 8,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Bellower (musician)",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Hand weapons, Leadbelcher guns {renegade}",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Veteran",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": []
     },
     {
       "id": "maneaters",
@@ -917,6 +1205,12 @@
       "equipment": [
         {
           "name": "Hand weapons",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        },
+        {
+          "name": "Hand weapons, Ogre pistols",
           "points": 0,
           "perModel": true,
           "default": true
@@ -956,6 +1250,24 @@
           "default": false
         },
         {
+          "name": "Scouts",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Move Through Cover",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Swiftstride",
+          "points": 0,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Additional hand weapons",
           "points": 3,
           "perModel": false,
@@ -963,12 +1275,6 @@
         },
         {
           "name": "Ironfists",
-          "points": 4,
-          "perModel": false,
-          "default": false
-        },
-        {
-          "name": "Ironfists {renegade}",
           "points": 4,
           "perModel": false,
           "default": false
@@ -992,20 +1298,28 @@
           "default": false
         },
         {
+          "name": "Brace of Ogre pistols",
+          "points": 6,
+          "perModel": false,
+          "default": false
+        },
+        {
           "name": "Heavy armour",
           "points": 3,
           "perModel": false,
           "default": false
         }
       ],
-      "magicAllowances": [],
-      "specialRules": [
-        "Close Order",
-        "Fear",
-        "Impact Hits (1)",
-        "Motley Crew",
-        "Ogre Charge"
-      ]
+      "magicAllowances": [
+        {
+          "label": "Big Name",
+          "types": [
+            "big-name"
+          ],
+          "maxPoints": 0
+        }
+      ],
+      "specialRules": []
     },
     {
       "id": "mournfang-cavalry",
@@ -1079,14 +1393,7 @@
       ],
       "options": [],
       "magicAllowances": [],
-      "specialRules": [
-        "Armoured Hide (1)",
-        "Close Order",
-        "Fear",
-        "Impact Hits (D3)",
-        "Mournfang Charge",
-        "Swiftstride"
-      ]
+      "specialRules": []
     },
     {
       "id": "yhetees",
@@ -1139,6 +1446,66 @@
         "Numbing Chill",
         "Open Order",
         "Swiftstride"
+      ]
+    },
+    {
+      "id": "yhetees-renegade",
+      "name": "Yhetees",
+      "category": "Special",
+      "points": 129,
+      "perModel": 43,
+      "minSize": 3,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [
+        {
+          "name": "Greyback",
+          "points": 7,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Grimfrost weapons",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [],
+      "options": [
+        {
+          "name": "Ambushers",
+          "points": 3,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Scouts",
+          "points": 2,
+          "perModel": true,
+          "default": false
+        },
+        {
+          "name": "Vanguard",
+          "points": 1,
+          "perModel": true,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armoured Hide (1)",
+        "Fear",
+        "Flammable",
+        "Loner",
+        "Move Through Cover",
+        "Numbing Chill",
+        "Open Order",
+        "Swiftstride",
+        "Ravenous Hunger"
       ]
     },
     {
@@ -1228,7 +1595,14 @@
           "default": false
         }
       ],
-      "armor": [],
+      "armor": [
+        {
+          "name": "4+",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
       "options": [
         {
           "name": "Harpoon launcher (Ogre Beast Rider)",
@@ -1252,6 +1626,99 @@
       ]
     },
     {
+      "id": "stonehorn-riders-renegade",
+      "name": "Stonehorn Riders",
+      "category": "Rare",
+      "points": 220,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapon, Horns of stone (Stonehorn), Chaintrap (Ogre Beast Rider)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Hand weapon, Horns of stone (Stonehorn), Blood vulture (Ogre Beast Rider)",
+          "points": 5,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Horns of stone (Stonehorn), Harpoon launcher (Ogre Beast Rider)",
+          "points": 15,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "armor": [
+        {
+          "name": "4+",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [
+        {
+          "name": "Ogre Beast Rider",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Additional Ogre Crew (Hand weapon, Harpoon launcher)",
+          "points": 25,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Hand weapon",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 3,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Great weapon",
+          "points": 4,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Ironfist",
+          "points": 4,
+          "perModel": false,
+          "default": false
+        }
+      ],
+      "magicAllowances": [],
+      "specialRules": [
+        "Armour Bane (2 - Stonehorn only)",
+        "Close Order",
+        "First Charge",
+        "Howdah",
+        "Impact Hits (D6+1)",
+        "Large Target",
+        "Stone Skeleton",
+        "Swiftstride",
+        "Terror",
+        "Thunderous Charge",
+        "Stomp Attacks (D3)",
+        "Ogre Club"
+      ]
+    },
+    {
       "id": "thundertusk-riders",
       "name": "Thundertusk Riders",
       "category": "Rare",
@@ -1264,23 +1731,60 @@
       "command": [],
       "equipment": [
         {
-          "name": "Hand weapon, Great tusks (Thundertusk), Chill breath (Thundertusk), Harpoon launcher (Ogre Crew), Chaintrap (Ogre Beast Rider)",
+          "name": "Hand weapon, Great tusks (Thundertusk), Sphere of Frost-wreathed Ice (Thundertusk), Harpoon launcher (Ogre Crew), Chaintrap (Ogre Beast Rider)",
           "points": 0,
           "perModel": false,
           "default": true
         },
         {
-          "name": "Hand weapon, Great tusks (Thundertusk), Chill breath (Thundertusk), Harpoon launcher (Ogre Crew), Blood vulture (Ogre Beast Rider)",
+          "name": "Hand weapon, Great tusks (Thundertusk), Sphere of Frost-wreathed Ice (Thundertusk), Harpoon launcher (Ogre Crew), Blood vulture (Ogre Beast Rider)",
           "points": 5,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Hand weapon, Great tusks (Thundertusk), Sphere of Frost-wreathed Ice (Thundertusk), Harpoon launcher (Ogre Crew), Harpoon launcher (Ogre Beast Rider)",
+          "points": 15,
           "perModel": false,
           "default": false
         }
       ],
-      "armor": [],
+      "armor": [
+        {
+          "name": "5+",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
       "options": [
         {
-          "name": "Harpoon launcher (Ogre Beast Rider)",
-          "points": 8,
+          "name": "Ogre Beast Rider",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Hand weapon",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Additional hand weapon",
+          "points": 3,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Great weapon",
+          "points": 4,
+          "perModel": false,
+          "default": false
+        },
+        {
+          "name": "Ironfist",
+          "points": 4,
           "perModel": false,
           "default": false
         }
@@ -1294,8 +1798,11 @@
         "Large Target",
         "Numbing Chill",
         "Stomp Attacks (3)",
-        "Swiftstride",
-        "Terror"
+        "Stomp Attacks (D3+1)",
+        "Smooth Ride",
+        "Strike Last",
+        "Terror",
+        "Ogre Club"
       ]
     },
     {
@@ -1381,16 +1888,7 @@
         }
       ],
       "magicAllowances": [],
-      "specialRules": [
-        "Ambushers",
-        "Close Order",
-        "Fear",
-        "Frenzy",
-        "Ravenous Hunger",
-        "Regeneration (6+)",
-        "Swiftstride",
-        "Unbreakable"
-      ]
+      "specialRules": []
     }
   ]
 }

@@ -18,12 +18,26 @@ const TYPE_GROUP = {
 const currentUnits = () => (App.data.faction && App.data.faction.units) || [];
 const unitById = id => currentUnits().find(u => u.id === id);
 
+async function factionMeta(id) {
+  if (!App.data.factionsIndex) {
+    App.data.factionsIndex = await loadJSON('factions-index');
+  }
+  return (App.data.factionsIndex.factions || []).find(f => f.id === id) || { id };
+}
+
 async function loadFaction(id) {
   const key = `faction:${id}`;
   if (!App.data[key]) {
-    const res = await fetch(`data/factions/${id}.json`);
+    const meta = await factionMeta(id);
+    const uses = meta.uses;
+    let res = await fetch(`data/factions/${id}.json`);
+    if (!res.ok && uses) {
+      res = await fetch(`data/factions/${uses}.json`);
+    }
     if (!res.ok) throw new Error(`Could not load faction "${id}" (${res.status})`);
-    App.data[key] = await res.json();
+    const data = await res.json();
+    if (uses) data.uses = data.uses || uses;
+    App.data[key] = data;
   }
   App.data.faction = App.data[key];
   buildItemIndex();
@@ -34,11 +48,16 @@ async function loadFaction(id) {
 function buildItemIndex() {
   const idx = {};
   const groups = (App.data.magicItems && App.data.magicItems.groups) || {};
-  // Index every group (general + current faction prioritized) so an item's
-  // points/onePerArmy resolve even when a unit draws from another faction's
-  // list via its itemSources (e.g. Cythranai using all elf lists).
-  const rest = Object.keys(groups).filter(g => g !== 'general' && g !== armyState.factionId);
-  ['general', armyState.factionId, ...rest].forEach(g => (groups[g] || []).forEach(it => {
+  // Index every group (general + current faction + uses prioritized) so an
+  // item's points/onePerArmy resolve even when a unit draws from another
+  // faction's list via its itemSources (e.g. Cythranai using all elf lists).
+  // Campaign factions (Cythranai, Sontrailles) also index their `uses` group
+  // (Wood Elf / Bretonnia items) since magic-items.json is keyed by OWB id.
+  const uses = App.data.faction && App.data.faction.uses;
+  const rest = Object.keys(groups).filter(g => g !== 'general' && g !== armyState.factionId && g !== uses);
+  const order = ['general', armyState.factionId];
+  if (uses) order.push(uses);
+  [...order, ...rest].forEach(g => (groups[g] || []).forEach(it => {
     if (!(it.name in idx)) idx[it.name] = { points: it.points, onePerArmy: it.onePerArmy };
   }));
   App.data.itemIndex = idx;
@@ -97,9 +116,11 @@ async function renderArmy() {
   App.data.magicItems = await loadJSON('magic-items');
   App.data.rulesIndex = await loadJSON('rules-index');
   if (armyState.cap == null) armyState.cap = App.data.rules.defaultPoints;
+  App.data.factionsIndex = index;
   if (armyState.factionId == null) {
-    armyState.factionId = index.factions.some(f => f.id === 'wood-elf-realms')
-      ? 'wood-elf-realms' : index.factions[0]?.id;
+    const ids = index.factions.map(f => f.id);
+    armyState.factionId = ids.includes('cythranai') ? 'cythranai'
+      : (ids.includes('wood-elf-realms') ? 'wood-elf-realms' : index.factions[0]?.id);
   }
   await loadFaction(armyState.factionId);
 
@@ -269,7 +290,8 @@ function buildItemPicker(u, line, allowance) {
   const groups = App.data.magicItems.groups;
   // A unit may widen its magic-item pool via itemSources (list of faction
   // group keys). Defaults to general + the army's own faction.
-  const src = new Set(u.itemSources || ['general', armyState.factionId]);
+  const uses = (App.data.faction && App.data.faction.uses) || null;
+  const src = new Set(u.itemSources || ['general', armyState.factionId, uses].filter(Boolean));
   allowance.types.forEach(t => { if (TYPE_GROUP[t]) src.add(TYPE_GROUP[t]); });
   const seen = new Set(); const items = [];
   src.forEach(g => (groups[g] || []).forEach(it => {
@@ -297,8 +319,16 @@ function buildItemPicker(u, line, allowance) {
   return sec;
 }
 
+function lookupRule(name) {
+  const rules = (App.data.rulesIndex && App.data.rulesIndex.rules) || {};
+  const key = (name || '').toLowerCase();
+  if (rules[key]) return rules[key];
+  const stripped = key.replace(/\s*\([^)]*\)\s*$/, '').trim();
+  return (stripped && rules[stripped]) || {};
+}
+
 function ruleEntry(name) {
-  const info = (App.data.rulesIndex.rules || {})[name.toLowerCase()] || {};
+  const info = lookupRule(name);
   const desc = info.desc ? `<p class="re-desc">${esc(info.desc)}</p>` : '';
   const hbTag = info.homebrew ? ` <span class="mini-tag hb">homebrew</span>` : '';
   const ref = info.url

@@ -12,7 +12,10 @@ const gameState = {
 /* ----- independent points resolver (mirrors army.js, no shared mutable state) ----- */
 function gItemIndex(factionId) {
   const idx = {}, groups = (App.data.magicItems && App.data.magicItems.groups) || {};
-  new Set(['general', factionId, ...Object.values(TYPE_GROUP)]).forEach(g =>
+  const faction = (gameState.army && gameState.army.faction)
+    || App.data[`faction:${factionId}`] || {};
+  const uses = faction.uses;
+  new Set(['general', factionId, uses, ...Object.values(TYPE_GROUP)].filter(Boolean)).forEach(g =>
     (groups[g] || []).forEach(it => { if (!(it.name in idx)) idx[it.name] = it.points; }));
   return idx;
 }
@@ -89,9 +92,19 @@ async function setArmy(data) {
   if (!data.factionId || !Array.isArray(data.roster)) { alert('List is missing a faction or units.'); return; }
   const key = `faction:${data.factionId}`;
   if (!App.data[key]) {
-    const r = await fetch(`data/factions/${data.factionId}.json`);
+    if (!App.data.factionsIndex) {
+      App.data.factionsIndex = await loadJSON('factions-index');
+    }
+    const meta = (App.data.factionsIndex.factions || []).find(f => f.id === data.factionId) || {};
+    const uses = meta.uses;
+    let r = await fetch(`data/factions/${data.factionId}.json`);
+    if (!r.ok && uses) {
+      r = await fetch(`data/factions/${uses}.json`);
+    }
     if (!r.ok) { alert(`Unknown army "${data.factionId}".`); return; }
-    App.data[key] = await r.json();
+    const faction = await r.json();
+    if (uses) faction.uses = faction.uses || uses;
+    App.data[key] = faction;
   }
   gameState.army = { ...data, faction: App.data[key] };
   gameState.magic.casters = {};

@@ -1,6 +1,16 @@
 {
   "factions": [
     {
+      "id": "cythranai",
+      "label": "Cythranai",
+      "uses": "wood-elf-realms"
+    },
+    {
+      "id": "sontrailles",
+      "label": "Sontrailles",
+      "uses": "kingdom-of-bretonnia"
+    },
+    {
       "id": "beastmen-brayherds",
       "label": "Beastmen Brayherds"
     },

@@ -88,10 +88,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -116,7 +122,13 @@
         "Resolute",
         "Sorcerer's Curse",
         "Stubborn"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "daemonsmith-sorcerer",
@@ -197,10 +209,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -225,7 +243,13 @@
         "Resolute",
         "Sorcerer's Curse",
         "Stubborn"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "infernal-castellan",
@@ -628,6 +652,18 @@
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Throwing weapons",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        },
+        {
+          "name": "Shortbow",
+          "points": 2,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [

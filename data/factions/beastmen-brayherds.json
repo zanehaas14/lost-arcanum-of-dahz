@@ -349,10 +349,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 3 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 4 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -400,7 +406,13 @@
         "Mark of Chaos Undivided",
         "Primal Fury",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 3
     },
     {
       "id": "bray-shaman",
@@ -456,10 +468,16 @@
           "default": false
         },
         {
-          "name": "Wizard",
+          "name": "Level 1 Wizard",
           "points": 0,
           "perModel": false,
           "default": true
+        },
+        {
+          "name": "Level 2 Wizard",
+          "points": 30,
+          "perModel": false,
+          "default": false
         }
       ],
       "magicAllowances": [
@@ -507,7 +525,13 @@
         "Mark of Chaos Undivided",
         "Primal Fury",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
+      "wizardLevel": 1
     },
     {
       "id": "doombull",
@@ -960,7 +984,12 @@
         "Mark of Chaos Undivided",
         "Primal Fury",
         "Warband"
-      ]
+      ],
+      "lores": [
+        "dark-magic",
+        "primal-magic"
+      ],
+      "wizardLevel": 4
     },
     {
       "id": "ghorros",
@@ -2406,7 +2435,7 @@
     {
       "id": "jabberslythe",
       "name": "Jabberslythe",
-      "category": "Rare",
+      "category": "Special",
       "points": 185,
       "perModel": null,
       "minSize": 1,
@@ -2488,7 +2517,7 @@
     {
       "id": "ghorgon",
       "name": "Ghorgon",
-      "category": "Rare",
+      "category": "Special",
       "points": 245,
       "perModel": null,
       "minSize": 1,
@@ -2774,10 +2803,51 @@
       ]
     },
     {
+      "id": "jabberslythe-rare",
+      "name": "Jabberslythe",
+      "category": "Rare",
+      "points": 185,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Wicked claws, Slythey tongue",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour (scaly skin)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Close Order",
+        "Fly (9)",
+        "Large Target",
+        "Maddening Aura",
+        "Poisoned Attacks",
+        "Spurting Bile Blood",
+        "Stomp Attacks (D3)",
+        "Swiftstride",
+        "Terror"
+      ]
+    },
+    {
       "id": "cygor",
       "name": "Cygor",
       "category": "Rare",
-      "points": 215,
+      "points": 205,
       "perModel": null,
       "minSize": 1,
       "type": "official",
@@ -2866,6 +2936,49 @@
         "Terror",
         "Timmm-berrr!",
         "Unbreakable"
+      ]
+    },
+    {
+      "id": "ghorgon-rare",
+      "name": "Ghorgon",
+      "category": "Rare",
+      "points": 245,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Cleaver-limbs",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Light armour (calloused hide)",
+          "points": 0,
+          "perModel": false,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Blood Greed",
+        "Close Order",
+        "Frenzy",
+        "Large Target",
+        "Primal Fury",
+        "Regeneration (6+)",
+        "Stomp Attacks (D3)",
+        "Stubborn",
+        "Swallow Whole",
+        "Terror",
+        "Timmm-berrr!"
       ]
     },
     {

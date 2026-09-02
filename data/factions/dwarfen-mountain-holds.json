@@ -1421,7 +1421,7 @@
     {
       "id": "scout-gyrocopters",
       "name": "Scout Gyrocopters",
-      "category": "Special",
+      "category": "Core",
       "points": 60,
       "perModel": null,
       "minSize": 1,
@@ -1448,7 +1448,7 @@
       "options": [],
       "magicAllowances": [],
       "specialRules": [
-        "Extended Formation",
+        "Dispersed Formation",
         "Fire & Flee",
         "Fly (10)",
         "Hatred (Orcs & Goblins)",
@@ -2093,6 +2093,48 @@
         "Swiftstride",
         "Vanguard",
         "Dispersed Formation"
+      ]
+    },
+    {
+      "id": "scout-gyrocopters-special",
+      "name": "Scout Gyrocopters",
+      "category": "Special",
+      "points": 60,
+      "perModel": null,
+      "minSize": 1,
+      "type": "official",
+      "notes": "",
+      "mounts": [],
+      "command": [],
+      "equipment": [
+        {
+          "name": "Hand weapons, Clatterguns",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "armor": [
+        {
+          "name": "Heavy armour",
+          "points": 0,
+          "perModel": true,
+          "default": true
+        }
+      ],
+      "options": [],
+      "magicAllowances": [],
+      "specialRules": [
+        "Dispersed Formation",
+        "Fire & Flee",
+        "Fly (10)",
+        "Hatred (Orcs & Goblins)",
+        "Hit & Run",
+        "Impact Hits (D3)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard"
       ]
     },
     {
