@@ -179,7 +179,7 @@
       "perModel": null,
       "minSize": 1,
       "type": "homebrew",
-      "notes": "Gareth's bodyguard/assassin. High-ranking. Not lieutenant. Distinct from Tirkinthil. Waystalker chassis + 2-shot Sword of Sorrow (~40) + Manbane (10). Character-assassin: AP, always-wound sniping.",
+      "notes": "Gareth's bodyguard/assassin. High-ranking. Waystalker chassis + 2-shot Sword of Sorrow (~40) + Manbane (10). Character-assassin: AP, always-wound sniping.",
       "itemSources": [
         "general",
         "wood-elf-realms",
@@ -218,7 +218,7 @@
       "perModel": 22,
       "minSize": 5,
       "type": "homebrew",
-      "notes": "Cult of Khul Anar. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it. Distinct from the Templars of Morngal (Spirit Eyes). Winged elves; flight from enchanted wings in the armour. 22 pts, A3, T3 W2, 5+/5+, Mooncleaver Falchion, Sundering Blow, Shrouded in Mist. Heavenly Headsmen = Hatred + Flaming. Harvesters of Fear stands."
+      "notes": "Cult of Khul Anar. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it. Winged elves; flight from enchanted wings in the armour. 22 pts, A3, T3 W2, 5+/5+, Mooncleaver Falchion, Sundering Blow, Shrouded in Mist. Heavenly Headsmen = Hatred + Flaming. Harvesters of Fear stands."
     },
     {
       "id": "hb-knights-savage-drake",
@@ -228,7 +228,7 @@
       "perModel": 68,
       "minSize": 2,
       "type": "homebrew",
-      "notes": "Gareth's lord-knights. Each is a Yár'laithîr. They follow Gareth alone. Tirkinthil is not one of them and they do not answer to him. Monstrous cavalry. Repeatable for MSU. W3, Red Blessing once per combat."
+      "notes": "Gareth's lord-knights. Each is a Yár'laithîr. They follow Gareth alone. Monstrous cavalry. Repeatable for MSU. W3, Red Blessing once per combat."
     }
   ]
 }
