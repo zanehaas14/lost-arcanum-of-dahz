@@ -56,6 +56,9 @@ function initGmToggle() {
     btn.textContent = App.gm ? 'GM view: ON' : 'GM view: off';
     btn.classList.toggle('on', App.gm);
     document.body.classList.toggle('gm-on', App.gm);
+    document.querySelectorAll('.nav a.gm-only').forEach(a => {
+      a.hidden = !App.gm;
+    });
   };
   btn.addEventListener('click', () => {
     App.gm = !App.gm;

@@ -275,3 +275,8 @@ button { font: inherit; cursor: pointer; }
 .codex-back:hover { color: var(--gold-2); }
 .wiki-link { color: var(--gold-2); text-decoration: none; border-bottom: 1px dotted var(--gold); }
 .wiki-link:hover { color: var(--gold); border-bottom-style: solid; }
+
+/* GM-only nav (etymology). Hidden unless GM view is on. */
+.nav a.gm-only { display: none; }
+body.gm-on .nav a.gm-only { display: inline-block; }
+.nav a.gm-only[hidden] { display: none; }

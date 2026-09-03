@@ -3,6 +3,7 @@
   "categories": [
     "Factions",
     "People",
+    "Ranks",
     "Places",
     "Powers",
     "Events",
@@ -29,7 +30,7 @@
         "Cythranai",
         "Athel Cythrel"
       ],
-      "body": "The overall people of Athel Cythrel. Known to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags.\n\nGareth is their current ruler."
+      "body": "The overall people of Athel Cythrel. Gareth is their Tyhîr. City nobles are Taeriour. The city is Teimanëar.\n\nKnown to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags.\n\nMany on the island, even in the city, regard the Cult as intruders and heretics."
     },
     {
       "id": "cult-of-khul-anar",
@@ -40,7 +41,7 @@
         "Khul Anar",
         "cult"
       ],
-      "body": "The Cult of Khul Anar is a faction with a presence on Athel Cythrel, not the whole of the Cythranai.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
+      "body": "Khul Anar is the being and the Cult name: faceless shadow. Not a place.\n\nThe Cult of Khul Anar is a faction with a presence on Athel Cythrel, not the whole of the Cythranai. Founded by Daedilae and Caerwynne. Younger than the Tithe. Did not found the city.\n\nPatron is Khul Anar, not Sarathel. They recognize the whole elven pantheon. Cult doctrine: a being donned different masks (Loec and Eldrazor among them) to fool the other gods.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
     },
     {
       "id": "gareth",
@@ -51,7 +52,7 @@
         "ruler",
         "Cythranai"
       ],
-      "body": "Current ruler of the Cythranai."
+      "body": "Tyhîr of Teimanëar. Lord who leads, not king. Ruler of the island nation, council beneath him, final say. Chosen of Anath Raema. Of Caledor. Holds Vhailor Sarthai. Foil to Daedilae: his power is a bargain, hers innate."
     },
     {
       "id": "the-twin-spirits",
@@ -62,7 +63,7 @@
         "spirits",
         "epithet"
       ],
-      "body": "The name outsiders give the two apex spirits of the island, so-called for being ever-together. To the peoples beyond, they are the guardians and terrors of that place."
+      "body": "The name outsiders give the two apex spirits of the island, so-called for being ever-together. To the peoples beyond, they are the guardians and terrors of that place.\n\nIslanders often name Sarathel as Nethu; other theories circulate."
     },
     {
       "id": "caerwynne",
@@ -73,7 +74,265 @@
         "marshall",
         "gladiatrix"
       ],
-      "body": "Holds two titles at once: Marshall of the Cult of Khul Anar and Grand Gladiatrix, champion of the coliseums. The Gladiatrix crown is won like a title belt; few climb high enough to challenge her."
+      "body": "Marshall and co-Head of the Cult; keeps it from falling apart. Grand Gladiatrix. Sister of Slaughter of Eldrazor. Not of Caledor. Found the Laurels. Gareth raised the coliseums and gave her the Gladiatrix name. Daedilae is the better fighter and will not enter the pits."
+    },
+    {
+      "id": "daedilae",
+      "title": "Daedilae",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Cythranai",
+        "Cult"
+      ],
+      "body": "Gareth's sister. High Priestess / champion and inspiration of the Cult. Founded the Cult with Caerwynne. Invented the Cult choreography. Rides Lothaqshynin. Blade Fëalana. Gave Gareth the Ark as apology for past strife and to help him (and her) consolidate power."
+    },
+    {
+      "id": "tirkinthil",
+      "title": "Tirkinthil",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Cythranai"
+      ],
+      "body": "Gareth's left hand. Cythranai native. Holds Vhailor Sarthai when Gareth is ashore. Distinct from Rephal. Not a Yár'laithîr; they do not answer to him."
+    },
+    {
+      "id": "rephal",
+      "title": "Rephal",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Cythranai"
+      ],
+      "body": "Gareth's bodyguard/assassin. High-ranking. Not lieutenant. Distinct from Tirkinthil."
+    },
+    {
+      "id": "emreith",
+      "title": "Emreith",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Caledor",
+        "founder"
+      ],
+      "body": "Founder. Caledor grandsire. Raised Teimanëar. Bargained the tithe with Sarathel."
+    },
+    {
+      "id": "ginriol",
+      "title": "Ginriol",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Caledor"
+      ],
+      "body": "Emreith's son. Father of Gareth and Daedilae. Left Athel Cythrel, settled Torgovann. Bray-shaman murdered Laiwynne and the sister and took him. Gareth and Daedilae slew the herd on Albion, brought him home. He died soon after. Buried in Torgovann beside wife and daughter."
+    },
+    {
+      "id": "laiwynne",
+      "title": "Laiwynne",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Athel Loren"
+      ],
+      "body": "Mother of Gareth and Daedilae. The blessed meadow. Athel Loren Asrai nobility, not Caledor. Natural reading: sister of Daith. Murdered with her daughter."
+    },
+    {
+      "id": "daith",
+      "title": "Daith, Lord of Torgovann",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "Torgovann"
+      ],
+      "body": "The book Asrai smith. Same man as uncle Daith. Their uncle."
+    },
+    {
+      "id": "yar-laithir",
+      "title": "Yár'laithîr",
+      "category": "Ranks",
+      "visibility": "player",
+      "tags": [
+        "Cythranai",
+        "Gareth"
+      ],
+      "body": "Gareth's lord-knights. Unit name and individual title. Each is a Yár'laithîr. They follow Gareth alone. Tirkinthil is not one of them and they do not answer to him."
+    },
+    {
+      "id": "felmoren",
+      "title": "Felmorën",
+      "category": "Ranks",
+      "visibility": "player",
+      "tags": [
+        "Cult",
+        "Daedilae"
+      ],
+      "body": "Singular Felmorë, plural Felmorën; both take ë. Cult of Khul Anar rank and unit. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it. Distinct from the Templars of Morngal (Spirit Eyes)."
+    },
+    {
+      "id": "taeriour",
+      "title": "Taeriour",
+      "category": "Ranks",
+      "visibility": "player",
+      "tags": [
+        "Teimanëar"
+      ],
+      "body": "Regional title of Teimanëar's nobles. Title Taeriour. Gareth remains Tyhîr."
+    },
+    {
+      "id": "teimanear",
+      "title": "Teimanëar",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "city",
+        "Cythranai"
+      ],
+      "body": "The city. Gareth rules the city, not the Cult."
+    },
+    {
+      "id": "peaks-of-yar-inaith",
+      "title": "Peaks of Yar'inaith",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "The Peaks of Yar'inaith."
+    },
+    {
+      "id": "caverns-of-angu-bol",
+      "title": "Caverns of Angu'bol",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "The Caverns of Angu'bol."
+    },
+    {
+      "id": "everfalls-of-to-anthir",
+      "title": "Everfalls of To'anthir",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "The Everfalls of To'anthir."
+    },
+    {
+      "id": "feanin",
+      "title": "Fëanin",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "trees"
+      ],
+      "body": "Soul-bloom trees; pact-trees; blooms are souls. Illegal to cut. Family gardens. Rare dark-red fruit: tea for trance; spined fruit brewed as wine for honored riders who return possessed on pale stags."
+    },
+    {
+      "id": "ark-berth",
+      "title": "Ark berth",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "Bay of the island."
+    },
+    {
+      "id": "vhailor-sarthai",
+      "title": "Vhailor Sarthai",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "Ark",
+        "Cythranai"
+      ],
+      "body": "Vhailor Sarthai, Silent Sovereign. Black Ark Daedilae stole and gave to Gareth. Mid-sized. East-coast raiding platform.\n\nWhole Ark takes the world-roots. Daedilae first figured how. Common knowledge among Cythranai; little-known off-island. Some scryers have found it. Root-aware: Ariel, Alarielle, Morathi; probably Slann; beastmen such as Morghur. World-roots are not a road. Vague pseudo-transdimensional path, used primarily by Wood Elves and Beastmen.\n\nRaids: primarily Cathay, also Ind and beyond."
+    },
+    {
+      "id": "templars-of-morngal",
+      "title": "Templars of Morngal",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Spirit Eyes",
+        "Morngal"
+      ],
+      "body": "Templars of Morngal (Blackwood), Spirit Eyes. Volunteers who forsake family. Morngalath the Black Grove. Pigmentless eyes; slur White Eye. Lose spoken Eltharin; traces of Anoqeyån; hand-signals with officials. Not under the city's hand. Ride the raids; carry the tithe when Daedilae cannot. Black javelins whispered to sever the senses."
+    },
+    {
+      "id": "temple-of-kurnous-and-isha",
+      "title": "Temple of Kurnous and Isha",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "Temple of Kurnous and Isha. An island faction."
+    },
+    {
+      "id": "death-cults-of-ereth-khial",
+      "title": "Death cults of Ereth Khial",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Ereth Khial",
+        "Teimanëar"
+      ],
+      "body": "Death cults of Ereth Khial (Pale Mistress). Secretive, scattered through Teimanëar, schemes/plots/blackmail. Gareth permits the death cults; they grate upon Daedilae."
+    },
+    {
+      "id": "pirates",
+      "title": "Pirates",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Athel Cythrel"
+      ],
+      "body": "Pirates exist on the island."
+    },
+    {
+      "id": "tithe",
+      "title": "Tithe",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Sarathel"
+      ],
+      "body": "Founder's original pact with Sarathel for harbor and settlement. Blooms are an outgrowth of that same pact."
+    },
+    {
+      "id": "fealana",
+      "title": "Fëalana",
+      "category": "Powers",
+      "visibility": "player",
+      "tags": [
+        "Daedilae"
+      ],
+      "body": "Reforged Fell Fang, soul breaker. Daedilae's blade. Not the Ark."
+    },
+    {
+      "id": "lothaqshynin",
+      "title": "Lothaqshynin",
+      "category": "Powers",
+      "visibility": "player",
+      "tags": [
+        "Daedilae"
+      ],
+      "body": "Sarathel's beloved. Name banned in-world. Daedilae's dread mount. Dance: Lothaqshynin, the Flame Bloom — Daedilae made it; cautionary tale; she does not know for sure that it is their story."
+    },
+    {
+      "id": "children-of-the-gods",
+      "title": "Children of the Gods",
+      "category": "Powers",
+      "visibility": "player",
+      "tags": [
+        "gods"
+      ],
+      "body": "Elves of the Old World: gods are real and have walked the world. Serve is a misnomer; working term is children of those gods (whether literal is unclear)."
     },
     {
       "id": "sontrailles",
