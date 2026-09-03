@@ -10,15 +10,48 @@
   ],
   "entries": [
     {
-      "id": "cult-of-khul-anar",
-      "title": "The Cult of Khul Anar (the Cythranai)",
+      "id": "athel-cythrel",
+      "title": "Athel Cythrel",
+      "category": "Places",
+      "visibility": "player",
+      "tags": [
+        "island",
+        "Cythranai"
+      ],
+      "body": "The island of the Cythranai."
+    },
+    {
+      "id": "cythranai",
+      "title": "The Cythranai",
       "category": "Factions",
       "visibility": "player",
       "tags": [
         "Cythranai",
-        "raiders"
+        "Athel Cythrel"
       ],
-      "body": "A people of the island, known to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
+      "body": "The overall people of Athel Cythrel. Known to outsiders as raiders. Their warrior culture prizes the coliseums of Khul Anar and the honored rage-riders who return from the hunt on pale rage-stags.\n\nGareth is their current ruler."
+    },
+    {
+      "id": "cult-of-khul-anar",
+      "title": "The Cult of Khul Anar",
+      "category": "Factions",
+      "visibility": "player",
+      "tags": [
+        "Khul Anar",
+        "cult"
+      ],
+      "body": "The Cult of Khul Anar is a faction with a presence on Athel Cythrel, not the whole of the Cythranai.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
+    },
+    {
+      "id": "gareth",
+      "title": "Gareth",
+      "category": "People",
+      "visibility": "player",
+      "tags": [
+        "ruler",
+        "Cythranai"
+      ],
+      "body": "Current ruler of the Cythranai."
     },
     {
       "id": "the-twin-spirits",

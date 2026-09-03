@@ -4,7 +4,10 @@ const codexState = { q: '', cat: 'All' };
 
 const CODEX_GENERIC_TITLES = new Set(['law', 'culture', 'military', 'nobility']);
 const CODEX_ALIASES = {
-  'cult-of-khul-anar': ['Cult of Khul Anar', 'Khul Anar', 'Cythranai'],
+  'cult-of-khul-anar': ['Cult of Khul Anar', 'Khul Anar'],
+  'cythranai': ['Cythranai'],
+  'athel-cythrel': ['Athel Cythrel'],
+  'gareth': ['Gareth'],
   'the-twin-spirits': ['Twin Spirits'],
   'sontrailles': ['Marches of Sontrailles'],
 };
