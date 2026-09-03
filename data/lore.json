@@ -41,7 +41,7 @@
         "Khul Anar",
         "cult"
       ],
-      "body": "Khul Anar is the being and the Cult name: faceless shadow.\n\nThe Cult of Khul Anar is a faction with a presence on Athel Cythrel, not the whole of the Cythranai. Founded by Daedilae and Caerwynne. Younger than the Tithe.\n\nPatron is Khul Anar. They recognize the whole elven pantheon. Cult doctrine: a being donned different masks (Loec and Eldrazor among them) to fool the other gods.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
+      "body": "Khul Anar is the being and the Cult name: faceless shadow.\n\nFounded by Daedilae and Caerwynne. A presence on Athel Cythrel. Younger than the Tithe.\n\nPatron is Khul Anar. They recognize the whole elven pantheon. A being donned different masks (Loec and Eldrazor among them) to fool the other gods.\n\nThe cult's seat is home of its coliseums, where champions are proven in the pits."
     },
     {
       "id": "gareth",
@@ -52,7 +52,7 @@
         "ruler",
         "Cythranai"
       ],
-      "body": "Tyhîr of Teimanëar. Lord who leads. Ruler of the island nation, council beneath him, final say. Chosen of Anath Raema. Of Caledor. Holds Vhailor Sarthai. Foil to Daedilae: his power is a bargain, hers innate."
+      "body": "Tyhîr of Teimanëar. Lord who leads. Ruler of the island nation, council beneath him, final say. Chosen of Anath Raema. Of Caledor. Holds Vhailor Sarthai. His power is a bargain."
     },
     {
       "id": "the-twin-spirits",
@@ -63,7 +63,7 @@
         "spirits",
         "epithet"
       ],
-      "body": "The name outsiders give the two apex spirits of the island, so-called for being ever-together. To the peoples beyond, they are the guardians and terrors of that place.\n\nIslanders often name Sarathel as Nethu; other theories circulate."
+      "body": "The name outsiders give the two apex spirits of the island, so-called for being ever-together. To the peoples beyond, they are the guardians and terrors of that place.\n\nIslanders often name Sarathel as Nethu."
     },
     {
       "id": "caerwynne",
@@ -74,7 +74,7 @@
         "marshall",
         "gladiatrix"
       ],
-      "body": "Marshall and co-Head of the Cult; keeps it from falling apart. Grand Gladiatrix. Sister of Slaughter of Eldrazor. Not of Caledor. Found the Laurels. Gareth raised the coliseums and gave her the Gladiatrix name. Daedilae is the better fighter and will not enter the pits."
+      "body": "Marshall and co-Head of the Cult. Grand Gladiatrix. Sister of Slaughter of Eldrazor. Found the Laurels. Gareth raised the coliseums and gave her the Gladiatrix name. Daedilae is the better fighter and will not enter the pits."
     },
     {
       "id": "daedilae",
@@ -85,7 +85,7 @@
         "Cythranai",
         "Cult"
       ],
-      "body": "Gareth's sister. High Priestess / champion and inspiration of the Cult. Founded the Cult with Caerwynne. Invented the Cult choreography. Rides Lothaqshynin. Blade Fëalana. Gave Gareth the Ark as apology for past strife and to help him (and her) consolidate power."
+      "body": "Gareth's sister. High Priestess of the Cult, champion and inspiration. Founded the Cult with Caerwynne. Invented the Cult choreography. Rides Lothaqshynin. Blade Fëalana. Gave Gareth the Ark as apology for past strife, and to consolidate power."
     },
     {
       "id": "tirkinthil",
@@ -136,7 +136,7 @@
       "tags": [
         "Athel Loren"
       ],
-      "body": "Mother of Gareth and Daedilae. The blessed meadow. Athel Loren Asrai nobility, not Caledor. Sister of Daith. Murdered with her daughter."
+      "body": "Mother of Gareth and Daedilae. The blessed meadow. Athel Loren Asrai nobility. Sister of Daith. Murdered with her daughter."
     },
     {
       "id": "daith",
@@ -146,7 +146,7 @@
       "tags": [
         "Torgovann"
       ],
-      "body": "The book Asrai smith. Same man as uncle Daith. Their uncle."
+      "body": "Daith, Lord of Torgovann. Uncle of Gareth and Daedilae. Asrai smith."
     },
     {
       "id": "yar-laithir",
@@ -168,7 +168,7 @@
         "Cult",
         "Daedilae"
       ],
-      "body": "Singular Felmorë, plural Felmorën; both take ë. Cult of Khul Anar rank and unit. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it."
+      "body": "Felmorën of the Cult of Khul Anar. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it.\n\nOne is a Felmorë."
     },
     {
       "id": "taeriour",
@@ -178,7 +178,7 @@
       "tags": [
         "Teimanëar"
       ],
-      "body": "Regional title of Teimanëar's nobles. Title Taeriour. Gareth remains Tyhîr."
+      "body": "Regional title of Teimanëar's nobles."
     },
     {
       "id": "teimanear",
@@ -189,7 +189,7 @@
         "city",
         "Cythranai"
       ],
-      "body": "The city. Gareth rules the city, not the Cult."
+      "body": "The city. Gareth rules Teimanëar."
     },
     {
       "id": "peaks-of-yar-inaith",
@@ -250,7 +250,7 @@
         "Ark",
         "Cythranai"
       ],
-      "body": "Vhailor Sarthai, Silent Sovereign. Black Ark Daedilae stole and gave to Gareth. Mid-sized. East-coast raiding platform.\n\nWhole Ark takes the world-roots. Daedilae first figured how. Common knowledge among Cythranai; little-known off-island. Some scryers have found it. Root-aware: Ariel, Alarielle, Morathi; probably Slann; beastmen such as Morghur. Vague pseudo-transdimensional path, used primarily by Wood Elves and Beastmen.\n\nRaids: primarily Cathay, also Ind and beyond."
+      "body": "Vhailor Sarthai, Silent Sovereign. Black Ark. Daedilae stole it and gave it to Gareth. Mid-sized. East-coast raiding platform.\n\nThe whole Ark takes the world-roots. Daedilae first figured how. Common among the Cythranai, little known off-island. Some scryers have found it.\n\nRaids: primarily Cathay, also Ind and beyond."
     },
     {
       "id": "templars-of-morngal",
@@ -261,7 +261,7 @@
         "Spirit Eyes",
         "Morngal"
       ],
-      "body": "Templars of Morngal (Blackwood), Spirit Eyes. Volunteers who forsake family. Morngalath the Black Grove. Pigmentless eyes; slur White Eye. Lose spoken Eltharin; traces of Anoqeyån; hand-signals with officials. Not under the city's hand. Ride the raids; carry the tithe when Daedilae cannot. Black javelins whispered to sever the senses."
+      "body": "Templars of Morngal (Blackwood), Spirit Eyes. Volunteers who forsake family. Morngalath the Black Grove. Pigmentless eyes; slur White Eye. Lose spoken Eltharin; traces of Anoqeyån; hand-signals with officials. Ride the raids; carry the tithe when Daedilae cannot. Black javelins whispered to sever the senses."
     },
     {
       "id": "temple-of-kurnous-and-isha",
@@ -271,7 +271,7 @@
       "tags": [
         "Athel Cythrel"
       ],
-      "body": "Temple of Kurnous and Isha. An island faction."
+      "body": "Temple of Kurnous and Isha on Athel Cythrel."
     },
     {
       "id": "death-cults-of-ereth-khial",
@@ -282,7 +282,7 @@
         "Ereth Khial",
         "Teimanëar"
       ],
-      "body": "Death cults of Ereth Khial (Pale Mistress). Secretive, scattered through Teimanëar, schemes/plots/blackmail. Gareth permits the death cults; they grate upon Daedilae."
+      "body": "Death cults of Ereth Khial, the Pale Mistress. Secretive, scattered through Teimanëar. They scheme, plot, and blackmail. Gareth permits them. They grate upon Daedilae."
     },
     {
       "id": "pirates",
@@ -292,7 +292,7 @@
       "tags": [
         "Athel Cythrel"
       ],
-      "body": "Pirates exist on the island."
+      "body": "Pirates of Athel Cythrel."
     },
     {
       "id": "tithe",
@@ -322,7 +322,7 @@
       "tags": [
         "Daedilae"
       ],
-      "body": "Sarathel's beloved. Name banned. Daedilae's dread mount. Dance: Lothaqshynin, the Flame Bloom — Daedilae made it; cautionary tale; she does not know for sure that it is their story."
+      "body": "Sarathel's beloved. Name banned. Daedilae's dread mount. The Flame Bloom is Daedilae's dance: a cautionary tale."
     },
     {
       "id": "children-of-the-gods",
@@ -332,7 +332,7 @@
       "tags": [
         "gods"
       ],
-      "body": "Elves of the Old World: gods are real and have walked the world. Children of those gods (whether literal is unclear)."
+      "body": "Elves of the Old World. The gods are real and have walked the world. Children of those gods."
     },
     {
       "id": "sontrailles",

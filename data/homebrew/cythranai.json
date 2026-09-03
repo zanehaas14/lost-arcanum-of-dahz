@@ -140,7 +140,7 @@
       "perModel": null,
       "minSize": 1,
       "type": "homebrew",
-      "notes": "Tyhîr of Teimanëar. Of Caledor. Must lead Yár'laithîr. Holds Vhailor Sarthai. All-in: Glade Lord chassis + Huarath (65pt monstrous-cav mount) + Biting Blade, Merciw's Locus, Aspect of the Bear (items <=100). Anvil-general, T5 in play. Must lead Yár'laithîr.",
+      "notes": "Tyhîr of Teimanëar. Of Caledor. Must lead Yár'laithîr. Holds Vhailor Sarthai. Glade Lord chassis + Huarath (65pt monstrous-cav mount) + Biting Blade, Merciw's Locus, Aspect of the Bear (items <=100). Anvil-general, T5 in play.",
       "itemSources": [
         "general",
         "wood-elf-realms",
@@ -156,7 +156,7 @@
       "perModel": null,
       "minSize": 1,
       "type": "homebrew",
-      "notes": "High Priestess of the Cult. Blade Fëalana. High Priestess on the dragon Lothaqshynin, Level 3 wizard + Aspect of the Cat. Flying hammer / character-killer (Killing Blow + Armour Bane).",
+      "notes": "High Priestess of the Cult. Blade Fëalana. On Lothaqshynin, Level 3 wizard + Aspect of the Cat. Flying hammer / character-killer (Killing Blow + Armour Bane).",
       "itemSources": [
         "general",
         "wood-elf-realms",
@@ -218,7 +218,7 @@
       "perModel": 22,
       "minSize": 5,
       "type": "homebrew",
-      "notes": "Cult of Khul Anar. Highest members short of the high priests. They follow Daedilae. Enchanted armour and weapons. Descend from the sky too fast for the eye. Blend Wardancer mimetic magic of Loec with Sisters of Slaughter ferocity. Deadliest weapons the Cult wields for their patron. In battle they don war-masks covering the eyes, enter a trance, and fight by instinct and the Winds of Magic. Brutality and skill unmatched on Athel Cythrel. Daedilae made the choreography; they dance it. Winged elves; flight from enchanted wings in the armour. 22 pts, A3, T3 W2, 5+/5+, Mooncleaver Falchion, Sundering Blow, Shrouded in Mist. Heavenly Headsmen = Hatred + Flaming. Harvesters of Fear stands."
+      "notes": "Cult of Khul Anar. Highest members short of the high priests. They follow Daedilae. Winged elves; flight from enchanted wings in the armour. 22 pts, A3, T3 W2, 5+/5+, Mooncleaver Falchion, Sundering Blow, Shrouded in Mist. Heavenly Headsmen = Hatred + Flaming. Harvesters of Fear."
     },
     {
       "id": "hb-knights-savage-drake",
