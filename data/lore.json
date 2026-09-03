@@ -5,6 +5,7 @@
     "People",
     "Ranks",
     "Places",
+    "Trees",
     "Powers",
     "Events",
     "Laws"
@@ -224,22 +225,14 @@
     {
       "id": "feanin",
       "title": "Fëanin",
-      "category": "Places",
+      "category": "Trees",
       "visibility": "player",
       "tags": [
-        "trees"
-      ],
-      "body": "Soul-bloom trees; pact-trees; blooms are souls. Illegal to cut. Family gardens. Rare dark-red fruit: tea for trance; spined fruit brewed as wine for honored riders who return possessed on pale stags."
-    },
-    {
-      "id": "ark-berth",
-      "title": "Ark berth",
-      "category": "Places",
-      "visibility": "player",
-      "tags": [
+        "Fëanin",
+        "trees",
         "Athel Cythrel"
       ],
-      "body": "Bay of the island."
+      "body": "A type of tree on Athel Cythrel. Soul-bloom trees, pact-trees. Blooms are souls. Illegal to cut. Family gardens. Rare dark-red fruit: tea for trance; spined fruit brewed as wine for honored riders who return possessed on pale stags."
     },
     {
       "id": "vhailor-sarthai",
